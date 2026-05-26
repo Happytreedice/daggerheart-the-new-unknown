@@ -1,135 +1,155 @@
 {
-    "id": "daggerheart-the-new-unknown",
-    "title": "The New Unknown for Daggerheart",
-    "description": "The New Unknown science-fiction playtest compendium module for the Foundryborne Daggerheart system.",
-    "version": "0.1.0",
-    "type": "module",
-    "authors": [
-        {
-            "name": "Happytreedice"
-        }
-    ],
-    "compatibility": {
-        "minimum": "14.361",
-        "verified": "14.363",
-        "maximum": "14"
-    },
-    "system": [
-        "daggerheart"
-    ],
-    "relationships": {
-        "systems": [
-            {
-                "id": "daggerheart",
-                "type": "system",
-                "compatibility": {
-                    "minimum": "2.2.6",
-                    "verified": "2.2.6"
-                }
-            }
-        ]
-    },
-    "url": "https://github.com/Happytreedice/daggerheart-the-new-unknown",
-    "manifest": "https://github.com/Happytreedice/daggerheart-the-new-unknown/releases/latest/download/module.json",
-    "download": "https://github.com/Happytreedice/daggerheart-the-new-unknown/releases/download/v0.1.0/daggerheart-the-new-unknown.zip",
-    "readme": "readme.md",
-    "esmodules": [
-        "src/module/the-new-unknown.mjs"
-    ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        },
-        {
-            "lang": "ru",
-            "name": "Russian",
-            "path": "lang/ru.json"
-        }
-    ],
-    "scripts": [],
-    "styles": [],
-    "packs": [
-        {
-            "name": "tnu-character-options",
-            "label": "The New Unknown: Character Options",
-            "system": "daggerheart",
-            "path": "packs/tnu-character-options",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "tnu-domain-cards",
-            "label": "The New Unknown: Domain Cards",
-            "system": "daggerheart",
-            "path": "packs/tnu-domain-cards",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "tnu-weapons",
-            "label": "The New Unknown: Weapons",
-            "system": "daggerheart",
-            "path": "packs/tnu-weapons",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "tnu-armors",
-            "label": "The New Unknown: Armors",
-            "system": "daggerheart",
-            "path": "packs/tnu-armors",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "tnu-gear",
-            "label": "The New Unknown: Gear and Implants",
-            "system": "daggerheart",
-            "path": "packs/tnu-gear",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "tnu-consumables",
-            "label": "The New Unknown: Expendables",
-            "system": "daggerheart",
-            "path": "packs/tnu-consumables",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "tnu-journals",
-            "label": "The New Unknown: Lore and Rules",
-            "system": "daggerheart",
-            "path": "packs/tnu-journals",
-            "type": "JournalEntry",
-            "private": false,
-            "flags": {}
-        }
-    ],
-    "packFolders": [
-        {
-            "name": "The New Unknown",
-            "sorting": "m",
-            "color": "#763a87",
-            "packs": [
-                "tnu-character-options",
-                "tnu-domain-cards",
-                "tnu-weapons",
-                "tnu-armors",
-                "tnu-gear",
-                "tnu-consumables",
-                "tnu-journals"
-            ],
-            "folders": []
-        }
-    ]
+    "id":  "daggerheart-the-new-unknown",
+    "title":  "The New Unknown for Daggerheart",
+    "description":  "The New Unknown science-fiction playtest compendium module for the Foundryborne Daggerheart system.",
+    "version":  "0.1.1",
+    "type":  "module",
+    "authors":  [
+                    {
+                        "name":  "Happytreedice"
+                    }
+                ],
+    "compatibility":  {
+                          "minimum":  "14.361",
+                          "verified":  "14.363",
+                          "maximum":  "14"
+                      },
+    "system":  [
+                   "daggerheart"
+               ],
+    "relationships":  {
+                          "systems":  [
+                                          {
+                                              "id":  "daggerheart",
+                                              "type":  "system",
+                                              "compatibility":  {
+                                                                    "minimum":  "2.2.6",
+                                                                    "verified":  "2.2.6"
+                                                                }
+                                          }
+                                      ]
+                      },
+    "url":  "https://github.com/Happytreedice/daggerheart-the-new-unknown",
+    "manifest":  "https://github.com/Happytreedice/daggerheart-the-new-unknown/releases/latest/download/module.json",
+    "download":  "https://github.com/Happytreedice/daggerheart-the-new-unknown/releases/download/v0.1.1/daggerheart-the-new-unknown.zip",
+    "readme":  "readme.md",
+    "esmodules":  [
+                      "src/module/the-new-unknown.mjs"
+                  ],
+    "languages":  [
+                      {
+                          "lang":  "en",
+                          "name":  "English",
+                          "path":  "lang/en.json"
+                      },
+                      {
+                          "lang":  "ru",
+                          "name":  "Russian",
+                          "path":  "lang/ru.json"
+                      }
+                  ],
+    "scripts":  [
+
+                ],
+    "styles":  [
+
+               ],
+    "packs":  [
+                  {
+                      "name":  "tnu-character-options",
+                      "label":  "The New Unknown: Character Options",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-character-options",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-domain-cards",
+                      "label":  "The New Unknown: Domain Cards",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-domain-cards",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-weapons",
+                      "label":  "The New Unknown: Weapons",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-weapons",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-armors",
+                      "label":  "The New Unknown: Armors",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-armors",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-gear",
+                      "label":  "The New Unknown: Gear and Implants",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-gear",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-consumables",
+                      "label":  "The New Unknown: Expendables",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-consumables",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-journals",
+                      "label":  "The New Unknown: Lore and Rules",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-journals",
+                      "type":  "JournalEntry",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  }
+              ],
+    "packFolders":  [
+                        {
+                            "name":  "The New Unknown",
+                            "sorting":  "m",
+                            "color":  "#763a87",
+                            "packs":  [
+                                          "tnu-character-options",
+                                          "tnu-domain-cards",
+                                          "tnu-weapons",
+                                          "tnu-armors",
+                                          "tnu-gear",
+                                          "tnu-consumables",
+                                          "tnu-journals"
+                                      ],
+                            "folders":  [
+
+                                        ]
+                        }
+                    ]
 }
