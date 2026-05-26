@@ -6,7 +6,10 @@ const MODULE_ID = 'daggerheart-the-new-unknown';
 const MODULE_NAME = 'The New Unknown for Daggerheart';
 const I18N_PREFIX = 'DHTNU';
 const PACK_NAMES = [
-  'tnu-character-options',
+  'tnu-classes',
+  'tnu-subclasses',
+  'tnu-ancestries',
+  'tnu-communities',
   'tnu-domain-cards',
   'tnu-weapons',
   'tnu-armors',

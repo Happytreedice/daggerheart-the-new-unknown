@@ -5,7 +5,10 @@
       "Description": "The New Unknown science-fiction playtest compendium module for the Foundryborne Daggerheart system."
     },
     "Pack": {
-      "tnu-character-options": "The New Unknown: Character Options",
+      "tnu-classes": "The New Unknown: Classes",
+      "tnu-subclasses": "The New Unknown: Subclasses",
+      "tnu-ancestries": "The New Unknown: Ancestries",
+      "tnu-communities": "The New Unknown: Communities",
       "tnu-domain-cards": "The New Unknown: Domain Cards",
       "tnu-weapons": "The New Unknown: Weapons",
       "tnu-armors": "The New Unknown: Armors",
@@ -20,37 +23,54 @@
       "Daggerheart": "Daggerheart SRD 1.0",
       "DarringtonPress": "Darrington Press Community Gaming License",
       "FoundryVTT": "Foundry Virtual Tabletop",
-      "MassEffect": "Mass Effect",
-      "MassHeart": "Mass Heart",
       "TheNewUnknown": "The New Unknown",
       "TheNewUnknownV2": "The New Unknown Playtest Volume 2.0 - Mind"
     },
     "Compendium": {
-      "tnu-character-options": {
-        "0Cn4OpnHhweSNRQl": {
-          "Description": "Deep Reserves: Gain +1 Stress.\nHardwired: You can have one cybernetic implant without gaining permanent Trauma. You start with Body Arsenal: a retractable one-handed primary weapon grafted to your body; ignore its burden.",
-          "Name": "Transhuman - Armament",
-          "Type": "ancestry"
+      "tnu-classes": {
+        "dW19p02GwhTCJZFd": {
+          "Description": "A rule-breaker who survives by luck, deception, tech, and perfect timing.\nLoaded Dice: At the start of each session, roll d12s equal to your subclass Power trait. Spend a Loaded Die on an action roll to swap one Duality Die value with the Loaded Die value. Clear unspent Loaded Dice at session end.\nCheap Tricks: When an adversary moves into Very Close range, mark a Stress to force a Reaction Roll against 10 + your level. On a failure, the target is temporarily Weakened or Vulnerable.\nHope Feature - Cheat Fate: Spend 3 Hope after an action roll to reroll one or both Duality Dice.\nClass Items: A pair of loaded dice or a signal scrambler.",
+          "Name": "Cheat",
+          "Type": "class"
         },
+        "llosN4M2dCFjABRF": {
+          "Description": "A master of advanced systems, experimental tools, and battlefield engineering.\nScanning Array: Detect technological signatures and exotic energy patterns within Close range. You know whether an object is powered, dormant, or offline.\nSystem Patch: Once per session, gain a Charge and place it on a Tech card within Close range, or suppress a malfunction or glitch effect until the end of the scene.\nOverload the System: Once per long rest, vault a Tech card from your loadout. Either gain Charges equal to its level and distribute them among charge-storing cards, or return an equal-or-lower-level Tech card from your vault to your loadout.\nHope Feature - Energy Surge: Spend 3 Hope to gain 2 Charge tokens on a card that can store Charges.\nClass Items: A set of modular tools or a portable power cell.",
+          "Name": "Architect",
+          "Type": "class"
+        },
+        "R6VShH0DLHFMCM9B": {
+          "Description": "A tactical survivor built around changing strategy as the scene changes.\nAdaptive: At the start of each scene, choose Cunning, Stealth, or Survival. Cunning lets you mark Stress instead of spending Hope when you Utilize an Experience, doubling the Experience modifier. Stealth turns Hidden into Shrouded. Survival lets you mark 2 Stress when taking damage to mark 1 fewer Hit Point.\nResourceful: You start with a third Experience and gain one additional Stress slot.\nHope Feature - Endure: Spend 3 Hope to clear 2 Stress.\nClass Items: A survival blade with alien-hide wrapping or a map of shifting terrain.",
+          "Name": "Protean",
+          "Type": "class"
+        }
+      },
+      "tnu-subclasses": {
         "0HNZgFn6XNUsAkcV": {
           "Description": "A Protean subclass for unseen movement and decisive strikes.\nFoundation - Ghost Strike: When you succeed on an attack with advantage or while Shrouded, spend a Hope to add Tier d6s to the damage roll.\nSpecialization - Tactical Cloak: Mark a Stress to become Shrouded at any time until you roll with Fear or the scene ends.\nMastery - Vanishing Point: Once per rest, when an attack would hit you, mark 2 Stress to become Shrouded, teleport within Far range, and cause the attack to miss.",
           "Name": "Spectre",
           "Type": "subclass"
         },
-        "9x7MlXxtmHl3QOCp": {
-          "Description": "Logical Explanation: If you spend an uninterrupted hour inspecting technical advice or an artifact, ask the GM three questions about its purpose and function.",
-          "Name": "Logicrooted",
-          "Type": "community"
+        "QH1OuNUJCqOeoj5A": {
+          "Description": "An Architect subclass that turns the body into a modular weapons platform.\nFoundation - Modular Arsenal: Take two Tier 1 modules, then two additional modules at your tier or lower whenever you reach a new tier. Your Energy Core stores 1 Charge, gains a Charge after a long rest, and spends Charges to activate modules until the scene ends or another module is activated.\nSpecialization - Enhanced Core: Your Energy Core stores up to 2 Charges. After a rest, choose one Tech card in your loadout; it can use Energy Core Charges.\nMastery - Masterwork Core: Your Energy Core stores up to 3 Charges. After a rest, choose two Tech cards in your loadout; they can use Energy Core Charges. You can activate a second module without ending the first.\nTier 1 modules: Targeting Node, Hydraulic Frame, Integrated Weapon, Shock Fist, Atmos-Sealed.\nTier 2 modules: Mag-Grip Boots, Spectral Optics, Ballistic Amplifier, Overstride, Chameleon Mesh.",
+          "Name": "Living Arsenal",
+          "Type": "subclass"
+        },
+        "YCeGdihRxEva6DvY": {
+          "Description": "A Cheat subclass focused on marking, pursuing, and disabling a target.\nFoundation - Dead or Alive: Spend a Hope to mark a target within Far range as your Bounty until they are defeated or the scene ends. You know their direction, add your level to damage against them, and can mark Stress after damaging them to make them temporarily Distracted or Vulnerable.\nSpecialization - No Escape: If your Bounty within Close range attempts to leave that range, you can move with them. Add Restrained and Dazed to the condition choices.\nMastery - Final Contract: When you damage your Bounty, give two conditions instead of one. Add Stunned to the condition choices.",
+          "Name": "Bounty Hunter",
+          "Type": "subclass"
+        }
+      },
+      "tnu-ancestries": {
+        "0Cn4OpnHhweSNRQl": {
+          "Description": "Deep Reserves: Gain +1 Stress.\nHardwired: You can have one cybernetic implant without gaining permanent Trauma. You start with Body Arsenal: a retractable one-handed primary weapon grafted to your body; ignore its burden.",
+          "Name": "Transhuman - Armament",
+          "Type": "ancestry"
         },
         "bpdZaJDjBLzn6lkb": {
           "Description": "Clear Thought: When you make a Knowledge Roll, spend 2 Hope to reroll your Hope Die.\nNeural Plasticity: When you fail a roll that utilized one of your Experiences, mark a Stress to reroll.",
           "Name": "Homo Novus - Lucid",
           "Type": "ancestry"
-        },
-        "dW19p02GwhTCJZFd": {
-          "Description": "A rule-breaker who survives by luck, deception, tech, and perfect timing.\nLoaded Dice: At the start of each session, roll d12s equal to your subclass Power trait. Spend a Loaded Die on an action roll to swap one Duality Die value with the Loaded Die value. Clear unspent Loaded Dice at session end.\nCheap Tricks: When an adversary moves into Very Close range, mark a Stress to force a Reaction Roll against 10 + your level. On a failure, the target is temporarily Weakened or Vulnerable.\nHope Feature - Cheat Fate: Spend 3 Hope after an action roll to reroll one or both Duality Dice.\nClass Items: A pair of loaded dice or a signal scrambler.",
-          "Name": "Cheat",
-          "Type": "class"
         },
         "iaVal5H6qCL1uEzB": {
           "Description": "Bio-Armor: Gain a bonus to your damage thresholds equal to your Proficiency.\nHard to Kill: When you Avoid Death on a death move, reroll your Hope Die once.",
@@ -67,35 +87,22 @@
           "Name": "Homo Novus - Vigil",
           "Type": "ancestry"
         },
-        "llosN4M2dCFjABRF": {
-          "Description": "A master of advanced systems, experimental tools, and battlefield engineering.\nScanning Array: Detect technological signatures and exotic energy patterns within Close range. You know whether an object is powered, dormant, or offline.\nSystem Patch: Once per session, gain a Charge and place it on a Tech card within Close range, or suppress a malfunction or glitch effect until the end of the scene.\nOverload the System: Once per long rest, vault a Tech card from your loadout. Either gain Charges equal to its level and distribute them among charge-storing cards, or return an equal-or-lower-level Tech card from your vault to your loadout.\nHope Feature - Energy Surge: Spend 3 Hope to gain 2 Charge tokens on a card that can store Charges.\nClass Items: A set of modular tools or a portable power cell.",
-          "Name": "Architect",
-          "Type": "class"
-        },
-        "QH1OuNUJCqOeoj5A": {
-          "Description": "An Architect subclass that turns the body into a modular weapons platform.\nFoundation - Modular Arsenal: Take two Tier 1 modules, then two additional modules at your tier or lower whenever you reach a new tier. Your Energy Core stores 1 Charge, gains a Charge after a long rest, and spends Charges to activate modules until the scene ends or another module is activated.\nSpecialization - Enhanced Core: Your Energy Core stores up to 2 Charges. After a rest, choose one Tech card in your loadout; it can use Energy Core Charges.\nMastery - Masterwork Core: Your Energy Core stores up to 3 Charges. After a rest, choose two Tech cards in your loadout; they can use Energy Core Charges. You can activate a second module without ending the first.\nTier 1 modules: Targeting Node, Hydraulic Frame, Integrated Weapon, Shock Fist, Atmos-Sealed.\nTier 2 modules: Mag-Grip Boots, Spectral Optics, Ballistic Amplifier, Overstride, Chameleon Mesh.",
-          "Name": "Living Arsenal",
-          "Type": "subclass"
-        },
-        "R6VShH0DLHFMCM9B": {
-          "Description": "A tactical survivor built around changing strategy as the scene changes.\nAdaptive: At the start of each scene, choose Cunning, Stealth, or Survival. Cunning lets you mark Stress instead of spending Hope when you Utilize an Experience, doubling the Experience modifier. Stealth turns Hidden into Shrouded. Survival lets you mark 2 Stress when taking damage to mark 1 fewer Hit Point.\nResourceful: You start with a third Experience and gain one additional Stress slot.\nHope Feature - Endure: Spend 3 Hope to clear 2 Stress.\nClass Items: A survival blade with alien-hide wrapping or a map of shifting terrain.",
-          "Name": "Protean",
-          "Type": "class"
-        },
         "ss6sIIHBB2qmlMU3": {
           "Description": "Deep Reserves: Gain +1 Stress.\nHardwired: You can have one cybernetic implant without gaining permanent Trauma. You start with Endocrine Synthesizer PEITHO and gain Subtle Pheromones: advantage on rolls to charm or persuade non-hostile creatures.",
           "Name": "Transhuman - Infused",
           "Type": "ancestry"
+        }
+      },
+      "tnu-communities": {
+        "9x7MlXxtmHl3QOCp": {
+          "Description": "Logical Explanation: If you spend an uninterrupted hour inspecting technical advice or an artifact, ask the GM three questions about its purpose and function.",
+          "Name": "Logicrooted",
+          "Type": "community"
         },
         "WgfZIlZVKBLJLQJx": {
           "Description": "Nomadic: You do not need much to rest and settle in quickly. During a long rest, choose one additional downtime move.",
           "Name": "Exodusrooted",
           "Type": "community"
-        },
-        "YCeGdihRxEva6DvY": {
-          "Description": "A Cheat subclass focused on marking, pursuing, and disabling a target.\nFoundation - Dead or Alive: Spend a Hope to mark a target within Far range as your Bounty until they are defeated or the scene ends. You know their direction, add your level to damage against them, and can mark Stress after damaging them to make them temporarily Distracted or Vulnerable.\nSpecialization - No Escape: If your Bounty within Close range attempts to leave that range, you can move with them. Add Restrained and Dazed to the condition choices.\nMastery - Final Contract: When you damage your Bounty, give two conditions instead of one. Add Stunned to the condition choices.",
-          "Name": "Bounty Hunter",
-          "Type": "subclass"
         },
         "zgIVfv240GdrLvZ1": {
           "Description": "Visions: You have advantage on rolls assessing situations ahead, planning, or understanding others, even without shared communication.",

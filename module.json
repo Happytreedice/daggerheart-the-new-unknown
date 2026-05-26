@@ -56,10 +56,43 @@
                ],
     "packs":  [
                   {
-                      "name":  "tnu-character-options",
-                      "label":  "The New Unknown: Character Options",
+                      "name":  "tnu-classes",
+                      "label":  "The New Unknown: Classes",
                       "system":  "daggerheart",
-                      "path":  "packs/tnu-character-options",
+                      "path":  "packs/tnu-classes",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-subclasses",
+                      "label":  "The New Unknown: Subclasses",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-subclasses",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-ancestries",
+                      "label":  "The New Unknown: Ancestries",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-ancestries",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "tnu-communities",
+                      "label":  "The New Unknown: Communities",
+                      "system":  "daggerheart",
+                      "path":  "packs/tnu-communities",
                       "type":  "Item",
                       "private":  false,
                       "flags":  {
@@ -139,7 +172,10 @@
                             "sorting":  "m",
                             "color":  "#763a87",
                             "packs":  [
-                                          "tnu-character-options",
+                                          "tnu-classes",
+                                          "tnu-subclasses",
+                                          "tnu-ancestries",
+                                          "tnu-communities",
                                           "tnu-domain-cards",
                                           "tnu-weapons",
                                           "tnu-armors",

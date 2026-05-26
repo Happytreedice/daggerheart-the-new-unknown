@@ -16,20 +16,20 @@ Build compendium packs with the official Foundry CLI:
 
 ```powershell
 npm install
-npm run build:packs
+npm run build:tnu
 ```
 
 Create a release ZIP without uploading:
 
 ```powershell
-npm run zip
+npm run zip:tnu
 ```
 
 Publish a GitHub release:
 
 ```powershell
 $env:GITHUB_TOKEN = "ghp_your_token_here"
-npm run release
+npm run release:tnu
 ```
 
 The module registers The New Unknown domains, domain card types, weapon features, and armor features during Foundry initialization. It logs `The New Unknown for Daggerheart | Initialized successfully.` to the browser console when registration succeeds.
