@@ -1,0 +1,29 @@
+{
+  "name": "Homo Novus - Lucid",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Clear Thought: When you make a Knowledge Roll, spend 2 Hope to reroll your Hope Die.</p><p>Neural Plasticity: When you fail a roll that utilized one of your Experiences, mark a Stress to reroll.</p>",
+    "features": [],
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "bpdZaJDjBLzn6lkb",
+  "sort": 0,
+  "_key": "!items!bpdZaJDjBLzn6lkb"
+}

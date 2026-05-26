@@ -1,0 +1,83 @@
+{
+  "name": "Regenerative Bio-Skin",
+  "type": "armor",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Regrowth: during downtime, automatically clear an Armor Slot</p>",
+    "quantity": 1,
+    "actions": {
+      "8KvRie5dzijub3VK": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Regrowth",
+        "description": "During downtime, automatically clear an Armor Slot.",
+        "img": "icons/skills/melee/shield-block-bash-blue.webp",
+        "cost": [],
+        "_id": "8KvRie5dzijub3VK",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "baseThresholds": {
+      "major": 8,
+      "severe": 18
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsRegrowth",
+        "effectIds": [],
+        "actionIds": [
+          "8KvRie5dzijub3VK"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Regrowth: during downtime, automatically clear an Armor Slot"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "qIhTHZ2yagDnXLaK",
+  "sort": 0,
+  "_key": "!items!qIhTHZ2yagDnXLaK"
+}

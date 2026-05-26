@@ -1,0 +1,92 @@
+{
+  "name": "Kinetic Barrier",
+  "type": "armor",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Deflect: after hit, mark Armor Slot to reduce attack roll by unmarked Armor Slots</p>",
+    "quantity": 1,
+    "actions": {
+      "e4OhQWoCJKCQqKwi": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Deflect",
+        "description": "After a hit, mark an Armor Slot to reduce the attack roll by unmarked Armor Slots.",
+        "img": "icons/skills/melee/shield-block-bash-blue.webp",
+        "cost": [
+          {
+            "key": "armor",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "e4OhQWoCJKCQqKwi",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "baseThresholds": {
+      "major": 9,
+      "severe": 20
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsDeflectArmor",
+        "effectIds": [],
+        "actionIds": [
+          "e4OhQWoCJKCQqKwi"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Deflect: after hit, mark Armor Slot to reduce attack roll by unmarked Armor Slots"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "NyZyLN8m7WVoHA3W",
+  "sort": 0,
+  "_key": "!items!NyZyLN8m7WVoHA3W"
+}

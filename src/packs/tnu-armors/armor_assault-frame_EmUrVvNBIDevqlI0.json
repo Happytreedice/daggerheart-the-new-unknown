@@ -1,0 +1,98 @@
+{
+  "name": "Assault Frame",
+  "type": "armor",
+  "img": "icons/equipment/chest/suit-armored-chest-plated.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Massive: -2 to Evasion; -1 to Agility</p>",
+    "quantity": 1,
+    "actions": {},
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "baseThresholds": {
+      "major": 8,
+      "severe": 17
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsMassiveArmor",
+        "effectIds": [
+          "GI0KHShMYWvliHez"
+        ],
+        "actionIds": []
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "Massive",
+      "type": "base",
+      "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.evasion",
+          "mode": 2,
+          "value": "-2"
+        },
+        {
+          "key": "system.traits.agility.value",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "-2 to Evasion; -1 to Agility.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsMassiveArmor"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "GI0KHShMYWvliHez",
+      "sort": 0,
+      "_key": "!items.effects!EmUrVvNBIDevqlI0.GI0KHShMYWvliHez"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Massive: -2 to Evasion; -1 to Agility"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "EmUrVvNBIDevqlI0",
+  "sort": 0,
+  "_key": "!items!EmUrVvNBIDevqlI0"
+}

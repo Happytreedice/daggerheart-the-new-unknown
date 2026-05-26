@@ -1,0 +1,34 @@
+{
+  "name": "Grav Disc",
+  "type": "consumable",
+  "img": "icons/commodities/tech/engine-tech-thrust-jet-teal.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against a Close target. On a success, the target becomes temporarily Restrained.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "expendable",
+      "roll": 11,
+      "tier": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "1rBG0s1IzzvY4zH5",
+  "sort": 0,
+  "_key": "!items!1rBG0s1IzzvY4zH5"
+}

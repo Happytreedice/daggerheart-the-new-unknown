@@ -1,0 +1,113 @@
+{
+  "name": "Photonic Tether",
+  "type": "domainCard",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>Project hard-light to gain advantage on rolls to climb. Charged: spend a Charge to pull yourself across gaps or up vertical surfaces to a location within Far range without a roll.</p>",
+    "domain": "saturn",
+    "type": "tech",
+    "level": 3,
+    "recallCost": 2,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {
+      "QjKzd0XhLW9nNPMz": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Gain Charge",
+        "description": "Place 1 Charge token on this card, up to its maximum.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [],
+        "_id": "QjKzd0XhLW9nNPMz",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "S17Bye06hPY36twe": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Spend Charge",
+        "description": "Spend 1 Charge token from this card for its Charged option.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [
+          {
+            "key": "resource",
+            "value": 1,
+            "itemId": "OwCIDk5n7hiROfyz",
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "S17Bye06hPY36twe",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "1",
+      "icon": "icons/commodities/tech/electronics-battery-energy-white-green.webp",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "OwCIDk5n7hiROfyz",
+  "sort": 0,
+  "_key": "!items!OwCIDk5n7hiROfyz"
+}

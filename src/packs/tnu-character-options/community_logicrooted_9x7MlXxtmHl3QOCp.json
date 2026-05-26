@@ -1,0 +1,29 @@
+{
+  "name": "Logicrooted",
+  "type": "community",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>Logical Explanation: If you spend an uninterrupted hour inspecting technical advice or an artifact, ask the GM three questions about its purpose and function.</p>",
+    "features": [],
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "9x7MlXxtmHl3QOCp",
+  "sort": 0,
+  "_key": "!items!9x7MlXxtmHl3QOCp"
+}

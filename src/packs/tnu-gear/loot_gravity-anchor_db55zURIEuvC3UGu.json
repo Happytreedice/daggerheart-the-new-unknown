@@ -1,0 +1,33 @@
+{
+  "name": "Gravity Anchor",
+  "type": "loot",
+  "img": "icons/commodities/tech/engine-tech-thrust-jet-teal.webp",
+  "system": {
+    "description": "<p>An activated rod that locks in place and holds up to 2 tons until deactivated.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "gear",
+      "roll": 40,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "db55zURIEuvC3UGu",
+  "sort": 0,
+  "_key": "!items!db55zURIEuvC3UGu"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Classes and Domains Overview",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Classes and Domains Overview",
+      "type": "text",
+      "_id": "vT0mCvwREqX52BqN",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Playtest v2.0_Mind includes full rules for Protean, Cheat, and Architect, plus Spectre, Bounty Hunter, and Living Arsenal foundation subclasses.</p><p>Sphere of Mind: Mercury - The Impulse, Saturn - The Shadow, Uranus - The Spark.</p><p>Sphere of Heart: Pluto - The End, Venus - The Voice, Terra - The Seed.</p><p>Sphere of Fist: Neptune - The Dream, Jupiter - The Shield, Mars - The Sword.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!yU5C3oGaPG0SalAC.vT0mCvwREqX52BqN"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "yU5C3oGaPG0SalAC",
+  "sort": 0,
+  "_key": "!journal!yU5C3oGaPG0SalAC"
+}

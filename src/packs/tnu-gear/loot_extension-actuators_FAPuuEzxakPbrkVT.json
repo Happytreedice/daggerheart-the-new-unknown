@@ -1,0 +1,33 @@
+{
+  "name": "Extension Actuators",
+  "type": "loot",
+  "img": "icons/equipment/hand/gauntlet-tooled-steel.webp",
+  "system": {
+    "description": "<p>Cybernetic Implant: Installing this implant permanently marks 1 Trauma.</p><p>Elongated Limbs: Treat Melee weapons as though they had Very Close range.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "cyberneticImplant",
+      "tier": 2,
+      "traumaCost": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "FAPuuEzxakPbrkVT",
+  "sort": 0,
+  "_key": "!items!FAPuuEzxakPbrkVT"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Composite Armor",
+  "type": "armor",
+  "img": "icons/equipment/chest/suit-armored-chest-plated.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "",
+    "quantity": 1,
+    "actions": {},
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 3
+    },
+    "baseThresholds": {
+      "major": 6,
+      "severe": 13
+    },
+    "armorFeatures": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "ydMRlvI2HMoNUafV",
+  "sort": 0,
+  "_key": "!items!ydMRlvI2HMoNUafV"
+}

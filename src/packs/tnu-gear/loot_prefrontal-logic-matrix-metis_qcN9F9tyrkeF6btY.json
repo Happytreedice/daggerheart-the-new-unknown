@@ -1,0 +1,72 @@
+{
+  "name": "Prefrontal Logic Matrix METIS",
+  "type": "loot",
+  "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+  "system": {
+    "description": "<p>Cybernetic Implant: Installing this implant permanently marks 1 Trauma.</p><p>Analytical: You have advantage on rolls related to analysis, planning, or calculations.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Analytical",
+      "type": "base",
+      "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.advantageSources",
+          "mode": 2,
+          "value": "analysis, planning, or calculations"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "Advantage on rolls for analysis, planning, or calculations.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedCybernetic": "Prefrontal Logic Matrix METIS"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "78JfETdweydKpYJN",
+      "sort": 0,
+      "_key": "!items.effects!qcN9F9tyrkeF6btY.78JfETdweydKpYJN"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "cyberneticImplant",
+      "tier": 2,
+      "traumaCost": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "qcN9F9tyrkeF6btY",
+  "sort": 0,
+  "_key": "!items!qcN9F9tyrkeF6btY"
+}

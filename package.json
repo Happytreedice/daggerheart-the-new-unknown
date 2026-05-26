@@ -1,0 +1,13 @@
+{
+  "name": "daggerheart-the-new-unknown",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:packs": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-module.ps1 -SkipZip -SkipRelease",
+    "zip": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-module.ps1 -SkipRelease",
+    "release": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-module.ps1"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Android",
+  "type": "ancestry",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>Self-Sustaining: You do not need to breathe and can survive in the cold vacuum of space.</p><p>Android: Choose one top or bottom ancestry feature of your choice.</p>",
+    "features": [],
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "IfG9Ug8yXFuI3iK3",
+  "sort": 0,
+  "_key": "!items!IfG9Ug8yXFuI3iK3"
+}

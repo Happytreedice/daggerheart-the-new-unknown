@@ -1,0 +1,34 @@
+{
+  "name": "Advanced Combat-Stim",
+  "type": "consumable",
+  "img": "icons/tools/laboratory/injector-needle-syringe-plunger.webp",
+  "system": {
+    "description": "<p>Clear 1d4+1 Stress. You cannot use another combat-stim until you complete a rest.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "expendable",
+      "roll": 23,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "eHWJEmcM6csI5wxd",
+  "sort": 0,
+  "_key": "!items!eHWJEmcM6csI5wxd"
+}

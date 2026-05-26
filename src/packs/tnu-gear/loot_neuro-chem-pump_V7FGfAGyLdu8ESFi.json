@@ -1,0 +1,71 @@
+{
+  "name": "Neuro-Chem Pump",
+  "type": "loot",
+  "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+  "system": {
+    "description": "<p>Cybernetic Implant: Installing this implant permanently marks 1 Trauma.</p><p>Neural Plasticity: When you fail a roll that utilized one of your Experiences, mark a Stress to reroll.</p>",
+    "quantity": 1,
+    "actions": {
+      "RwMCFjCOKQhCp3d8": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Neural Plasticity",
+        "description": "Mark a Stress to reroll after failing a roll that used one of your Experiences.",
+        "img": "icons/magic/control/fear-fright-mask-orange.webp",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "RwMCFjCOKQhCp3d8",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "cyberneticImplant",
+      "tier": 2,
+      "traumaCost": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "V7FGfAGyLdu8ESFi",
+  "sort": 0,
+  "_key": "!items!V7FGfAGyLdu8ESFi"
+}

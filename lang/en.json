@@ -1,0 +1,1662 @@
+{
+  "DHTNU": {
+    "Module": {
+      "Title": "The New Unknown for Daggerheart",
+      "Description": "The New Unknown science-fiction playtest compendium module for the Foundryborne Daggerheart system."
+    },
+    "Pack": {
+      "tnu-character-options": "The New Unknown: Character Options",
+      "tnu-domain-cards": "The New Unknown: Domain Cards",
+      "tnu-weapons": "The New Unknown: Weapons",
+      "tnu-armors": "The New Unknown: Armors",
+      "tnu-gear": "The New Unknown: Gear and Implants",
+      "tnu-consumables": "The New Unknown: Expendables",
+      "tnu-journals": "The New Unknown: Lore and Rules"
+    },
+    "PackFolder": {
+      "Label": "The New Unknown"
+    },
+    "Source": {
+      "Daggerheart": "Daggerheart SRD 1.0",
+      "DarringtonPress": "Darrington Press Community Gaming License",
+      "FoundryVTT": "Foundry Virtual Tabletop",
+      "MassEffect": "Mass Effect",
+      "MassHeart": "Mass Heart",
+      "TheNewUnknown": "The New Unknown",
+      "TheNewUnknownV2": "The New Unknown Playtest Volume 2.0 - Mind"
+    },
+    "Compendium": {
+      "tnu-character-options": {
+        "0Cn4OpnHhweSNRQl": {
+          "Description": "Deep Reserves: Gain +1 Stress.\nHardwired: You can have one cybernetic implant without gaining permanent Trauma. You start with Body Arsenal: a retractable one-handed primary weapon grafted to your body; ignore its burden.",
+          "Name": "Transhuman - Armament",
+          "Type": "ancestry"
+        },
+        "0HNZgFn6XNUsAkcV": {
+          "Description": "A Protean subclass for unseen movement and decisive strikes.\nFoundation - Ghost Strike: When you succeed on an attack with advantage or while Shrouded, spend a Hope to add Tier d6s to the damage roll.\nSpecialization - Tactical Cloak: Mark a Stress to become Shrouded at any time until you roll with Fear or the scene ends.\nMastery - Vanishing Point: Once per rest, when an attack would hit you, mark 2 Stress to become Shrouded, teleport within Far range, and cause the attack to miss.",
+          "Name": "Spectre",
+          "Type": "subclass"
+        },
+        "9x7MlXxtmHl3QOCp": {
+          "Description": "Logical Explanation: If you spend an uninterrupted hour inspecting technical advice or an artifact, ask the GM three questions about its purpose and function.",
+          "Name": "Logicrooted",
+          "Type": "community"
+        },
+        "bpdZaJDjBLzn6lkb": {
+          "Description": "Clear Thought: When you make a Knowledge Roll, spend 2 Hope to reroll your Hope Die.\nNeural Plasticity: When you fail a roll that utilized one of your Experiences, mark a Stress to reroll.",
+          "Name": "Homo Novus - Lucid",
+          "Type": "ancestry"
+        },
+        "dW19p02GwhTCJZFd": {
+          "Description": "A rule-breaker who survives by luck, deception, tech, and perfect timing.\nLoaded Dice: At the start of each session, roll d12s equal to your subclass Power trait. Spend a Loaded Die on an action roll to swap one Duality Die value with the Loaded Die value. Clear unspent Loaded Dice at session end.\nCheap Tricks: When an adversary moves into Very Close range, mark a Stress to force a Reaction Roll against 10 + your level. On a failure, the target is temporarily Weakened or Vulnerable.\nHope Feature - Cheat Fate: Spend 3 Hope after an action roll to reroll one or both Duality Dice.\nClass Items: A pair of loaded dice or a signal scrambler.",
+          "Name": "Cheat",
+          "Type": "class"
+        },
+        "iaVal5H6qCL1uEzB": {
+          "Description": "Bio-Armor: Gain a bonus to your damage thresholds equal to your Proficiency.\nHard to Kill: When you Avoid Death on a death move, reroll your Hope Die once.",
+          "Name": "Visc",
+          "Type": "ancestry"
+        },
+        "IfG9Ug8yXFuI3iK3": {
+          "Description": "Self-Sustaining: You do not need to breathe and can survive in the cold vacuum of space.\nAndroid: Choose one top or bottom ancestry feature of your choice.",
+          "Name": "Android",
+          "Type": "ancestry"
+        },
+        "k8KairawoEhFeAvI": {
+          "Description": "Fast Response: Mark a Stress to gain advantage on a reaction roll.\nNeural Plasticity: When you fail a roll that utilized one of your Experiences, mark a Stress to reroll.",
+          "Name": "Homo Novus - Vigil",
+          "Type": "ancestry"
+        },
+        "llosN4M2dCFjABRF": {
+          "Description": "A master of advanced systems, experimental tools, and battlefield engineering.\nScanning Array: Detect technological signatures and exotic energy patterns within Close range. You know whether an object is powered, dormant, or offline.\nSystem Patch: Once per session, gain a Charge and place it on a Tech card within Close range, or suppress a malfunction or glitch effect until the end of the scene.\nOverload the System: Once per long rest, vault a Tech card from your loadout. Either gain Charges equal to its level and distribute them among charge-storing cards, or return an equal-or-lower-level Tech card from your vault to your loadout.\nHope Feature - Energy Surge: Spend 3 Hope to gain 2 Charge tokens on a card that can store Charges.\nClass Items: A set of modular tools or a portable power cell.",
+          "Name": "Architect",
+          "Type": "class"
+        },
+        "QH1OuNUJCqOeoj5A": {
+          "Description": "An Architect subclass that turns the body into a modular weapons platform.\nFoundation - Modular Arsenal: Take two Tier 1 modules, then two additional modules at your tier or lower whenever you reach a new tier. Your Energy Core stores 1 Charge, gains a Charge after a long rest, and spends Charges to activate modules until the scene ends or another module is activated.\nSpecialization - Enhanced Core: Your Energy Core stores up to 2 Charges. After a rest, choose one Tech card in your loadout; it can use Energy Core Charges.\nMastery - Masterwork Core: Your Energy Core stores up to 3 Charges. After a rest, choose two Tech cards in your loadout; they can use Energy Core Charges. You can activate a second module without ending the first.\nTier 1 modules: Targeting Node, Hydraulic Frame, Integrated Weapon, Shock Fist, Atmos-Sealed.\nTier 2 modules: Mag-Grip Boots, Spectral Optics, Ballistic Amplifier, Overstride, Chameleon Mesh.",
+          "Name": "Living Arsenal",
+          "Type": "subclass"
+        },
+        "R6VShH0DLHFMCM9B": {
+          "Description": "A tactical survivor built around changing strategy as the scene changes.\nAdaptive: At the start of each scene, choose Cunning, Stealth, or Survival. Cunning lets you mark Stress instead of spending Hope when you Utilize an Experience, doubling the Experience modifier. Stealth turns Hidden into Shrouded. Survival lets you mark 2 Stress when taking damage to mark 1 fewer Hit Point.\nResourceful: You start with a third Experience and gain one additional Stress slot.\nHope Feature - Endure: Spend 3 Hope to clear 2 Stress.\nClass Items: A survival blade with alien-hide wrapping or a map of shifting terrain.",
+          "Name": "Protean",
+          "Type": "class"
+        },
+        "ss6sIIHBB2qmlMU3": {
+          "Description": "Deep Reserves: Gain +1 Stress.\nHardwired: You can have one cybernetic implant without gaining permanent Trauma. You start with Endocrine Synthesizer PEITHO and gain Subtle Pheromones: advantage on rolls to charm or persuade non-hostile creatures.",
+          "Name": "Transhuman - Infused",
+          "Type": "ancestry"
+        },
+        "WgfZIlZVKBLJLQJx": {
+          "Description": "Nomadic: You do not need much to rest and settle in quickly. During a long rest, choose one additional downtime move.",
+          "Name": "Exodusrooted",
+          "Type": "community"
+        },
+        "YCeGdihRxEva6DvY": {
+          "Description": "A Cheat subclass focused on marking, pursuing, and disabling a target.\nFoundation - Dead or Alive: Spend a Hope to mark a target within Far range as your Bounty until they are defeated or the scene ends. You know their direction, add your level to damage against them, and can mark Stress after damaging them to make them temporarily Distracted or Vulnerable.\nSpecialization - No Escape: If your Bounty within Close range attempts to leave that range, you can move with them. Add Restrained and Dazed to the condition choices.\nMastery - Final Contract: When you damage your Bounty, give two conditions instead of one. Add Stunned to the condition choices.",
+          "Name": "Bounty Hunter",
+          "Type": "subclass"
+        },
+        "zgIVfv240GdrLvZ1": {
+          "Description": "Visions: You have advantage on rolls assessing situations ahead, planning, or understanding others, even without shared communication.",
+          "Name": "Nebularooted",
+          "Type": "community"
+        }
+      },
+      "tnu-domain-cards": {
+        "0eQoFikSk8o2D34e": {
+          "Description": "Discharged: fly up to Close range, then vault. Charged: spend a Charge to fly up to Far range. Overcharged: spend 2 Charges to fly until the scene ends, then vault.",
+          "Name": "Jet Pack",
+          "Type": "domainCard"
+        },
+        "4SlVS00AxxgIUvSQ": {
+          "Description": "Make a Power Roll to attack a target within Very Close range for d8+2 kinetic damage using Proficiency. If the target is Vulnerable, use d12. Charged: spend a Charge to attack all targets within Very Close range with the same damage.",
+          "Name": "Monofilament Wire",
+          "Type": "domainCard"
+        },
+        "5DCNFaV8FwI25PhL": {
+          "Description": "Gain advantage on rolls to distract a target within Close range or create a diversion. Charged: spend a Charge to make a Power Roll against all targets within Very Close range; successes are temporarily Distracted.",
+          "Name": "Infrasonic Disruptor",
+          "Type": "domainCard"
+        },
+        "AWpoHQdHG2VcyZON": {
+          "Description": "Discharged: clear a Stress, then vault. Charged: spend a Charge to clear a Stress on you or an ally within Melee. Overcharged: spend 2 Charges to clear 2 Hit Points and 2 Stress on you or an ally within Melee, then vault.",
+          "Name": "Nanite Infusion",
+          "Type": "domainCard"
+        },
+        "BdFv7IDdBcLT4uiw": {
+          "Description": "Make a Power Roll against all targets within Very Close range. On a success, they mark a Stress and are temporarily Restrained. Release: after use, flip it to Seal.",
+          "Name": "Torment of Cocytus - Release",
+          "Type": "domainCard"
+        },
+        "c37skolPuZ0DSL4Y": {
+          "Description": "Place a snare at a visible point within Very Close range and roll Power trait d20s; moving targets make a Reaction Roll against the highest result or stop. Discharged vaults after placement. Charged adds temporary Restrained on failure. Overcharged makes failure Restrained and Stunned, success Restrained, then vaults.",
+          "Name": "Pulse Snare",
+          "Type": "domainCard"
+        },
+        "CD8b6gcWBM1CY4ad": {
+          "Description": "Your Evasion gains +1 against attacks from Melee range. Charged: spend a Charge to project a holographic copy within Far range; it has your Evasion, moves at your command, and vanishes when damaged, reused, or the scene ends.",
+          "Name": "Holo Decoy",
+          "Type": "domainCard"
+        },
+        "Ceq9SiKlVCBgPqLh": {
+          "Description": "Make a primary weapon attack against a target within Melee range of one of your allies. On a success, deal damage and the ally can move up to Close range. On a success with Hope, add d6 to damage. Mark a Stress to make an ally Ordered until they roll with Fear.",
+          "Name": "Cut and Shift",
+          "Type": "domainCard"
+        },
+        "CoazCfxk15GT92Ba": {
+          "Description": "Make a Power Roll against a target within Far range. On a success, deal d12+3 energy damage using Proficiency and temporarily Ignite the target plus all targets within Very Close range. Release: after use, flip it to Seal.",
+          "Name": "Flames of Phlegethon - Release",
+          "Type": "domainCard"
+        },
+        "FAlEIEEBMzaCKGRy": {
+          "Description": "Make a Power Roll against a target within Very Close range. On a success, once per rest they mark 1d4 Stress; clear Stress equal to the Stress they marked. Seal: after successfully using this card, mark a Hit Point to flip it to Release.",
+          "Name": "Stygian Tribute - Seal",
+          "Type": "domainCard"
+        },
+        "FEO39GUtkY4AxboK": {
+          "Description": "When an ally within Far range takes damage, spend a Hope to let that ally move up to Close range.",
+          "Name": "Fall Back",
+          "Type": "domainCard"
+        },
+        "FMVsjOF11OqVaxWj": {
+          "Description": "When an ally within Close range attacks a target with advantage, you gain advantage on your next attack against that target.",
+          "Name": "An Advantage",
+          "Type": "domainCard"
+        },
+        "fPmDYGzytAwAVWWW": {
+          "Description": "Discharged: after a successful weapon attack within Close range, add 1d8 damage, then vault this card. Charged: spend a Charge to arc 1d10 energy damage to another target within Very Close range of the first, Reaction Roll against your attack result for half. Overcharged: spend 2 Charges to arc 1d12 to all targets within Very Close range, then vault.",
+          "Name": "Arc Unit",
+          "Type": "domainCard"
+        },
+        "FTw9W3IKhMJv0rgH": {
+          "Description": "Make a Power Roll against a creature or device within Very Close range. On a success, a short memory or piece of data is temporarily erased. The GM can spend a Fear to resurface it. Seal: after successfully using this card, mark a Hit Point to flip it to Release.",
+          "Name": "Waters of Lethe - Seal",
+          "Type": "domainCard"
+        },
+        "futIjMntAgp7oZ4s": {
+          "Description": "Gain advantage on an action roll to breach a secure network, open an electronic lock, or disable a device. Charged: on a success with Fear for that roll, spend a Charge to ignore negative consequences while the GM still gains Fear.",
+          "Name": "Holo AI-Demon",
+          "Type": "domainCard"
+        },
+        "GZZ67oiW1uVYWvDp": {
+          "Description": "Alter your features and pigmentation, gaining advantage to hide your identity. Charged: spend a Charge to imitate a specific creature you have seen; place Power trait tokens on this card and spend one whenever you take an action until depleted.",
+          "Name": "Holographic Guise",
+          "Type": "domainCard"
+        },
+        "L2eVqbdEViIWsdCu": {
+          "Description": "Gain advantage on rolls to hide. Charged: Make a Power Roll 10; on a success, spend a Charge and become Shrouded. Place Power trait tokens on this card and spend one when you take an action until depleted.",
+          "Name": "Cloak Field",
+          "Type": "domainCard"
+        },
+        "ngjblo5WtKxVnCqf": {
+          "Description": "Choose yourself or an ally within Very Close range. They instantly move to any visible space within Far range, then mark a Stress. Seal: after successfully using this card, mark a Hit Point to flip it to Release.",
+          "Name": "Passage of Charon - Seal",
+          "Type": "domainCard"
+        },
+        "OwCIDk5n7hiROfyz": {
+          "Description": "Project hard-light to gain advantage on rolls to climb. Charged: spend a Charge to pull yourself across gaps or up vertical surfaces to a location within Far range without a roll.",
+          "Name": "Photonic Tether",
+          "Type": "domainCard"
+        },
+        "P7BfzXzrhpgGzyGQ": {
+          "Description": "When you make a reaction roll, mark a Stress to add your Instinct or Knowledge. Once per rest when an ally in Very Close range would gain a condition, describe how your tactics help them avoid it.",
+          "Name": "Adaptable Tactics",
+          "Type": "domainCard"
+        },
+        "R4WT331SBtd9Lldd": {
+          "Description": "Discharged: Power Roll against a Close target; target and creatures within Melee make Reaction Roll 13 or take d20+5 energy damage using Proficiency, half on success, then vault. Charged: spend a Charge to affect Very Close range. Overcharged: spend 2 Charges to target Far range and affect Close range, then vault.",
+          "Name": "Nova Grenade",
+          "Type": "domainCard"
+        },
+        "R9KDe9Ue5X7rzsBI": {
+          "Description": "Make a Power Roll against a target within Far range. On a success, spend a Hope to deal d6+1 energy damage using Proficiency. The target makes Reaction Roll 13 or is temporarily Ignited. Ignited targets take 2d6 energy damage at the end of their action. Seal: after successfully using this card, mark a Hit Point to flip it to Release.",
+          "Name": "Flames of Phlegethon - Seal",
+          "Type": "domainCard"
+        },
+        "RDEiCMMWgQGyNCXB": {
+          "Description": "Make a Power Roll against a creature or device within Very Close range. On a success, identity or data is temporarily erased. An adversary cannot use features; a device stops functioning. The GM can spend 2 Fear to resurface it. Release: after use, flip it to Seal.",
+          "Name": "Waters of Lethe - Release",
+          "Type": "domainCard"
+        },
+        "rttMyBcG4zz09aNX": {
+          "Description": "Make a Power Roll against a target within Very Close range. On a success, once per rest deal d12+4 energy damage using Proficiency; clear Hit Points equal to the Hit Points they marked. Release: after use, flip it to Seal.",
+          "Name": "Stygian Tribute - Release",
+          "Type": "domainCard"
+        },
+        "rYUTs5pWQwRXa5Pj": {
+          "Description": "When you take damage from a target within Close range, force Reaction Roll 14. On a failure, mark a Stress to deal d6+2 energy damage using Proficiency. Seal: after successfully using this card, mark a Hit Point to flip it to Release.",
+          "Name": "Retribution of Tisiphone - Seal",
+          "Type": "domainCard"
+        },
+        "SjHuMEM3BfofXpbh": {
+          "Description": "Once per rest, mark a Stress to shroud yourself in negative energy until you take Severe damage or the scene ends. Adversaries within Melee that damage you take 1d10 energy damage. Spend a Hope to extend this to Close range. Release: after successfully using this card, flip it to Seal.",
+          "Name": "Retribution of Tisiphone - Release",
+          "Type": "domainCard"
+        },
+        "sZJEsOkojfSeW9U3": {
+          "Description": "Make a Power Roll against a creature within Close range. On a success, they are temporarily Frenzied and attack the closest target. The GM spotlights the Frenzied target after you. Release: after use, flip it to Seal.",
+          "Name": "Terror of Alecto - Release",
+          "Type": "domainCard"
+        },
+        "TPFon3HZ2A0iffVB": {
+          "Description": "Make a Power Roll against up to three targets within Close range. On a success, move them to visible safe spaces within Far range; each marks a Stress. Release: after use, flip it to Seal.",
+          "Name": "Passage of Charon - Release",
+          "Type": "domainCard"
+        },
+        "VGd1vnWptoDQkges": {
+          "Description": "Once per rest, spend a Hope to redirect the spotlight from you to an ally within Very Close range. That ally can sprint anywhere within Far range without making an Agility Roll.",
+          "Name": "Forward Momentum",
+          "Type": "domainCard"
+        },
+        "vQpdyJRVn0PoBTcy": {
+          "Description": "After you make an action roll to analyze, strategize, or lead into battle, spend a Hope to reroll the Hope or Fear Die.",
+          "Name": "Mind's Edge",
+          "Type": "domainCard"
+        },
+        "wlv1vWMdgvCGmDXz": {
+          "Description": "Your Evasion gains a bonus equal to half your Agility or Knowledge.",
+          "Name": "Elusive Strategem",
+          "Type": "domainCard"
+        },
+        "Xy36j5yz5JDjEZ9r": {
+          "Description": "Make a Power Roll against a target within Very Close range. On a success, the target is temporarily Tormented: whenever spotlighted, they also mark a Stress. Seal: after successfully using this card, mark a Hit Point to flip it to Release.",
+          "Name": "Torment of Cocytus - Seal",
+          "Type": "domainCard"
+        },
+        "yOVf45Mc5KodSJ69": {
+          "Description": "Discharged: teleport to a visible point within Very Close range, then vault. Charged: spend a Charge to teleport within Close range. Overcharged: spend 2 Charges to teleport within Very Far range and bring a willing creature within Very Close range, then vault.",
+          "Name": "Translocator",
+          "Type": "domainCard"
+        },
+        "zJJj2qtpQOHmFl39": {
+          "Description": "Discharged: Power Roll against a Close target for d10+5 energy damage using Proficiency, then vault. Charged: spend a Charge to attack all targets in a Close straight line. Overcharged: spend 2 Charges to attack all targets in front within Close range for d12+5 energy, then vault.",
+          "Name": "Repulsor Blast",
+          "Type": "domainCard"
+        },
+        "zZBnEwajlohyga0T": {
+          "Description": "Make a Power Roll against a creature within Close range. On a success, they are temporarily Panicked and must attempt to flee. The GM spotlights the Panicked target after you. Seal: after successfully using this card, mark a Hit Point to flip it to Release.",
+          "Name": "Terror of Alecto - Seal",
+          "Type": "domainCard"
+        }
+      },
+      "tnu-weapons": {
+        "0JzNtiuFeuA4rnyy": {
+          "Description": "Block: +1 Armor Score",
+          "Name": "Energy Shield Bracers",
+          "Type": "weapon"
+        },
+        "1dGxAuvqoUdonpz9": {
+          "Description": "Amplified: roll one extra damage die and discard lowest",
+          "Name": "Resonance Gun",
+          "Type": "weapon"
+        },
+        "1grkblnvqxGlciIC": {
+          "Description": "Spreadfire: target all creatures in front within range",
+          "Name": "Riot Shotgun",
+          "Type": "weapon"
+        },
+        "25EAIIYhNYzTVcU4": {
+          "Description": "Off-Hand: +2 primary weapon damage to Melee targets",
+          "Name": "Phase Shoto",
+          "Type": "weapon"
+        },
+        "4sLUmdhX39oHCxad": {
+          "Description": "Constrict: spend Hope to temporarily Restrain target",
+          "Name": "Ion Shackle",
+          "Type": "weapon"
+        },
+        "6N47xK6VDJ0OABtb": {
+          "Description": "Warded: +1 Armor Score",
+          "Name": "ASPIS Mono-Edge Shield",
+          "Type": "weapon"
+        },
+        "6PZoJv9f7OiJrUV0": {
+          "Description": "Unwieldy: -1 to Finesse",
+          "Name": "Mass Driver Shotgun",
+          "Type": "weapon"
+        },
+        "7E5N2gbcwtCFNGJ9": {
+          "Description": "Precise: +1 to attack rolls",
+          "Name": "Sharpshooter Carabine",
+          "Type": "weapon"
+        },
+        "9i1hRxJtwpWtIynB": {
+          "Name": "Psionic Emanator [Echo]",
+          "Type": "weapon"
+        },
+        "a6wGtdsHwFZ9v2Dj": {
+          "Description": "Shielded: +2 Armor Score; -1 Stress",
+          "Name": "Personal Energy Shield",
+          "Type": "weapon"
+        },
+        "C9PNHdViIy8xLY6P": {
+          "Description": "Power Strike: add Strength to damage rolls",
+          "Name": "Force Gauntlet alpha-Series",
+          "Type": "weapon"
+        },
+        "ctjgddqEWqzroGkT": {
+          "Description": "Adrenaline: when all Stress marked, use d12 damage die",
+          "Name": "Visc Bladestaff",
+          "Type": "weapon"
+        },
+        "cWsfweU4QnbNa2rd": {
+          "Name": "Grav-Sling",
+          "Type": "weapon"
+        },
+        "dqN4rcAEJnHosVaX": {
+          "Description": "Off-Hand: +2 primary weapon damage to Melee targets",
+          "Name": "Mono-Edge Dagger",
+          "Type": "weapon"
+        },
+        "EMopSwESNkfrtOdj": {
+          "Description": "Bastion: +2 Armor Score; -1 Evasion",
+          "Name": "Riot Shield",
+          "Type": "weapon"
+        },
+        "eOGJqG8lOZkGeALv": {
+          "Name": "Psionic Resonator [Echo]",
+          "Type": "weapon"
+        },
+        "er63Okh3PqNIaoon": {
+          "Description": "One-on-One: advantage if no other creatures Close to target",
+          "Name": "Kinetic Resonance Bracers [Echo]",
+          "Type": "weapon"
+        },
+        "euHohz8D9tlDYvNF": {
+          "Name": "Mass Driver Assault Rifle",
+          "Type": "weapon"
+        },
+        "EVV1BlTkWTkwF5RL": {
+          "Description": "Rupture: max damage die rolls another die",
+          "Name": "Phasebreaker MF-3",
+          "Type": "weapon"
+        },
+        "FxKGVeLHnzN0z91P": {
+          "Description": "Unwieldy: -1 to Finesse",
+          "Name": "Heavy Plasma Rifle",
+          "Type": "weapon"
+        },
+        "fy22i5Be9XyyMyLO": {
+          "Description": "Locked: spend Hope for advantage",
+          "Name": "Smart Assault Rifle",
+          "Type": "weapon"
+        },
+        "fySkf5uFqcS820TN": {
+          "Description": "Rupture: max damage die rolls another die",
+          "Name": "Stalker Blades",
+          "Type": "weapon"
+        },
+        "FzjRp9mYTHDGxMEU": {
+          "Description": "Unleash: mark Stress to force Melee adversaries back to Close",
+          "Name": "Psionic Amplifier [Echo]",
+          "Type": "weapon"
+        },
+        "GKyNNjnXElNycKm4": {
+          "Description": "Lethal: Severe damage marks one additional HP",
+          "Name": "Double-Edged Photon Blade",
+          "Type": "weapon"
+        },
+        "J6zmIewG57tW3sIL": {
+          "Description": "Point-Blank: within Close use d8 damage die",
+          "Name": "Plasma Gun",
+          "Type": "weapon"
+        },
+        "jecRRR5xDOR0jgUI": {
+          "Description": "Locked: spend Hope for advantage",
+          "Name": "Smart SMG",
+          "Type": "weapon"
+        },
+        "jFNXmz4yC4xa6KOj": {
+          "Description": "Opportunist: with advantage, use d10 damage die",
+          "Name": "Mono-Edge Knife",
+          "Type": "weapon"
+        },
+        "jiPAQKbAaCdPmXNy": {
+          "Description": "Impact Zone: target and nearby creatures Reaction Roll 13 or take damage, success half",
+          "Name": "Kinetic Grenade Launcher",
+          "Type": "weapon"
+        },
+        "JOxywOWevuIaxRd6": {
+          "Description": "Bulky: -1 to Evasion",
+          "Name": "Grav-Maul",
+          "Type": "weapon"
+        },
+        "kfBUPeosS1o8v90O": {
+          "Description": "Straining: target marks Stress on hit",
+          "Name": "Repulsor Glove",
+          "Type": "weapon"
+        },
+        "kQrK58yYyT0HNL91": {
+          "Name": "Phase Glaive",
+          "Type": "weapon"
+        },
+        "lvzMbaLS14fUI8rU": {
+          "Description": "Lethal: Severe damage marks one additional HP",
+          "Name": "Photon Saber",
+          "Type": "weapon"
+        },
+        "lXut3uTQ7dyA4Uwu": {
+          "Name": "Phase Flail",
+          "Type": "weapon"
+        },
+        "mI46cSczF0aam2nG": {
+          "Description": "Drag: pull target into Melee on hit",
+          "Name": "Phase Lash",
+          "Type": "weapon"
+        },
+        "mKAMzRQsztTaEXyX": {
+          "Description": "Precise: +1 to attack rolls",
+          "Name": "Plasma Pistol",
+          "Type": "weapon"
+        },
+        "mLPfs61vfPHOwvvO": {
+          "Description": "Lethal: Severe damage marks one additional HP",
+          "Name": "Photon Pike",
+          "Type": "weapon"
+        },
+        "nR0V19S9akNeiIKX": {
+          "Description": "Shielded: +2 Armor Score; -1 Knowledge",
+          "Name": "Kinetic Barrier Emitter [Echo]",
+          "Type": "weapon"
+        },
+        "oB5fi14GilHZB9Zh": {
+          "Description": "Tether: spend Hope to Restrain or pull target to Melee",
+          "Name": "Filament Lash",
+          "Type": "weapon"
+        },
+        "OfyojaWqiN5jqUiZ": {
+          "Description": "Lethal: Severe damage marks one additional HP",
+          "Name": "Photon Blade",
+          "Type": "weapon"
+        },
+        "qAvg5bm9ab47Xv1A": {
+          "Name": "Retractable Staff",
+          "Type": "weapon"
+        },
+        "qeV1eICEXuNyTiQe": {
+          "Description": "Barrier: +1 Evasion",
+          "Name": "Kinetic Field Emitter [Echo]",
+          "Type": "weapon"
+        },
+        "qS3s2HJC95L8H9rG": {
+          "Description": "Hybrid: may use Instinct, Melee, d10",
+          "Name": "Phase Lance",
+          "Type": "weapon"
+        },
+        "R8WTGR92TJM8FWUh": {
+          "Description": "Synced: spend Hope for +2 primary weapon damage",
+          "Name": "Plasma Sidearm",
+          "Type": "weapon"
+        },
+        "RnoYtwy37zO952Cm": {
+          "Description": "Deflecting: matching damage dice are discarded from attacker damage",
+          "Name": "Short Photon Blade",
+          "Type": "weapon"
+        },
+        "rWfcNyW760iiOWmR": {
+          "Description": "Opportunist: with advantage, use d12 damage die",
+          "Name": "ZEUS Arc Talons",
+          "Type": "weapon"
+        },
+        "s3Py2xnOZtwl2HCQ": {
+          "Description": "Pull: pull yourself into Melee range of target on hit",
+          "Name": "Harpoon Bracers",
+          "Type": "weapon"
+        },
+        "Sfj6yHCZCjSofnvB": {
+          "Description": "Hybrid: may use Finesse, Melee, d10",
+          "Name": "JANUS Gunblade",
+          "Type": "weapon"
+        },
+        "sgTDztO6hPTExPbp": {
+          "Description": "Amplified: roll one extra damage die and discard lowest",
+          "Name": "Shock Gauntlets",
+          "Type": "weapon"
+        },
+        "sjkiJHqxalzKAnlo": {
+          "Description": "Shockwave: all adversaries Very Close mark Stress",
+          "Name": "ZEUS Shock Mace",
+          "Type": "weapon"
+        },
+        "sUxpe6rhljlAyDcM": {
+          "Name": "Phase Blade",
+          "Type": "weapon"
+        },
+        "SXbGMDoAOtZysNug": {
+          "Name": "TriSpheres",
+          "Type": "weapon"
+        },
+        "uFeRHfnL1mrUSwNf": {
+          "Name": "Plasma Wrist-Gun",
+          "Type": "weapon"
+        },
+        "uhgZcQbckuqiwjmO": {
+          "Description": "Precise: +1 to attack rolls",
+          "Name": "Mono-Edge Katana",
+          "Type": "weapon"
+        },
+        "VlfEu13UKYQJUosI": {
+          "Description": "Adrenaline: when all Stress marked, use d10 damage die",
+          "Name": "Visc Biospitter",
+          "Type": "weapon"
+        },
+        "vnE202D3Bh9mnILw": {
+          "Description": "Synced: spend Hope for +2 primary weapon damage",
+          "Name": "Mass Driver Handgun",
+          "Type": "weapon"
+        },
+        "WgDghICuAv3MD0w7": {
+          "Description": "Dead Zone: disadvantage at Melee and Very Close",
+          "Name": "Phase Bow",
+          "Type": "weapon"
+        },
+        "wlpi53TpqbQZsex4": {
+          "Description": "Unleash: mark Stress to force Melee adversaries back to Close",
+          "Name": "Force Gauntlet beta-Series",
+          "Type": "weapon"
+        },
+        "wy9b4pj14VO2n98a": {
+          "Name": "HERAKLES Shotgun",
+          "Type": "weapon"
+        },
+        "xCqASJSI3PzGcIIZ": {
+          "Description": "Precise: +1 to attack rolls",
+          "Name": "HELIOS Mark IV Rifle",
+          "Type": "weapon"
+        },
+        "z9oA2HBzMCR07gvY": {
+          "Description": "Flexible: mark Stress to target another creature in range",
+          "Name": "Nano Filament",
+          "Type": "weapon"
+        }
+      },
+      "tnu-armors": {
+        "68Ua3BzR11keE0Y2": {
+          "Description": "Phantom: mark Armor Slot to give attacks disadvantage until damaged or scene ends",
+          "Name": "Phantom Mesh",
+          "Type": "armor"
+        },
+        "7yqojRCb8nx8t8ii": {
+          "Description": "Stims: during downtime, automatically clear a Stress",
+          "Name": "Stim-Link Exo-Frame",
+          "Type": "armor"
+        },
+        "Bbq4xCvBygMuAieH": {
+          "Description": "Adaptive: +1 to Evasion",
+          "Name": "Nano Weave",
+          "Type": "armor"
+        },
+        "crUR0jspDEUe24eH": {
+          "Description": "Transfer: mark Armor Slot instead of Stress",
+          "Name": "Biofeedback Armor",
+          "Type": "armor"
+        },
+        "EmUrVvNBIDevqlI0": {
+          "Description": "Massive: -2 to Evasion; -1 to Agility",
+          "Name": "Assault Frame",
+          "Type": "armor"
+        },
+        "mvQPE92Bskb9jKwl": {
+          "Description": "Biocharged: mark Stress for +1 Proficiency on a primary weapon attack",
+          "Name": "LAMIA Frame",
+          "Type": "armor"
+        },
+        "NCgJTlQY9VqWHBJO": {
+          "Description": "Cornered: when all Stress marked, gain advantage on attack rolls",
+          "Name": "Visc Carapace",
+          "Type": "armor"
+        },
+        "NyZyLN8m7WVoHA3W": {
+          "Description": "Deflect: after hit, mark Armor Slot to reduce attack roll by unmarked Armor Slots",
+          "Name": "Kinetic Barrier",
+          "Type": "armor"
+        },
+        "qDfJ5LIHub7Johu8": {
+          "Description": "Bulky: -1 to Evasion",
+          "Name": "Reactive Mesh",
+          "Type": "armor"
+        },
+        "qIhTHZ2yagDnXLaK": {
+          "Description": "Regrowth: during downtime, automatically clear an Armor Slot",
+          "Name": "Regenerative Bio-Skin",
+          "Type": "armor"
+        },
+        "ydMRlvI2HMoNUafV": {
+          "Name": "Composite Armor",
+          "Type": "armor"
+        }
+      },
+      "tnu-gear": {
+        "0aCxTbLGE6HCkjSN": {
+          "Description": "A wrist launcher with retracting cable for climbing or swinging up to Far range.",
+          "Name": "Grapple-Launcher",
+          "Type": "loot"
+        },
+        "3duAlDo7aYOHEXA9": {
+          "Description": "An earpiece that translates spoken languages in real time.",
+          "Name": "Linguist Module",
+          "Type": "loot"
+        },
+        "3tvHxva18YwT0LOg": {
+          "Description": "A palm-sized recorder that projects a 3D audio-visual loop.",
+          "Name": "Holo Projector",
+          "Type": "loot"
+        },
+        "5LVA2XyGZfZvH5lG": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nFleet Step: Move within Close range as if obstacles did not impede you, leaping, vaulting, or scaling terrain with ease.",
+          "Name": "Tendons ATALANTA",
+          "Type": "loot"
+        },
+        "5wP81e3iGmIHURpu": {
+          "Description": "An adhesive tracker that broadcasts precise location anywhere on the planet.",
+          "Name": "Tracking Disc",
+          "Type": "loot"
+        },
+        "7utdeD844r10yrIE": {
+          "Description": "An encrypted transceiver for clear allied communication across a planet.",
+          "Name": "Comm-Unit",
+          "Type": "loot"
+        },
+        "8AqoRcnABhEg5Inu": {
+          "Description": "Once per short rest, gain advantage on an attack roll from perfect trajectory calculation.",
+          "Name": "Advanced Combat AI",
+          "Type": "loot"
+        },
+        "8klqLAVR8ukFwdH9": {
+          "Description": "A pressurized suit with 6 hours of oxygen and protection from vacuum, radiation, and extreme temperatures.",
+          "Name": "Space-Walker Suit",
+          "Type": "loot"
+        },
+        "9PYXUNTQgLIqGd2k": {
+          "Description": "A scanner for inorganic materials, fields, radiation, chemistry, and structural weaknesses.",
+          "Name": "Matter Analyzer",
+          "Type": "loot"
+        },
+        "aaDOwyzmE9vKjN3E": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nEmpath: Advantage on rolls to sense and understand the emotions of non-hostile creatures.",
+          "Name": "Mirror-Neuron Lace",
+          "Type": "loot"
+        },
+        "cwmvvW4MLtQVCndc": {
+          "Description": "A passive jamming module that masks outgoing signals from triangulation.",
+          "Name": "Ghost Comm",
+          "Type": "loot"
+        },
+        "D0attuLKyXBctDMo": {
+          "Description": "A backpack attachment; mark a Stress while falling to prevent fall damage.",
+          "Name": "Grav-Chute",
+          "Type": "loot"
+        },
+        "D5PFOP55t76lORNd": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nThermal Vision: Advantage on rolls to detect creatures or objects by heat signatures, and see clearly in darkness.",
+          "Name": "Therm-Optic Retinas",
+          "Type": "loot"
+        },
+        "db55zURIEuvC3UGu": {
+          "Description": "An activated rod that locks in place and holds up to 2 tons until deactivated.",
+          "Name": "Gravity Anchor",
+          "Type": "loot"
+        },
+        "El1UoJ7bMTC3EzG2": {
+          "Description": "A wrist or ear socket for direct cable connection to compatible devices.",
+          "Name": "Personal Link",
+          "Type": "loot"
+        },
+        "FAPuuEzxakPbrkVT": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nElongated Limbs: Treat Melee weapons as though they had Very Close range.",
+          "Name": "Extension Actuators",
+          "Type": "loot"
+        },
+        "FG5N1jhakXn1YfPc": {
+          "Description": "A handheld plasma torch for cutting hinges, fences, cuffs, and thin bulkheads.",
+          "Name": "Fusion Cutter",
+          "Type": "loot"
+        },
+        "HqxZPXcvnjE7xhWI": {
+          "Description": "A bodysuit layer that protects against extreme heat and cold.",
+          "Name": "Thermal Regulator",
+          "Type": "loot"
+        },
+        "iZsnMv3hymZ1OrCj": {
+          "Description": "A DNA trace analyzer for identifying individuals from tiny samples.",
+          "Name": "Gene-Sniffer",
+          "Type": "loot"
+        },
+        "jMVKeLcl3875Zhfo": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nNeural-Link: Advantage on rolls to manipulate and bypass computer systems.",
+          "Name": "Neural Interface",
+          "Type": "loot"
+        },
+        "JPJQH2ROlOEqHwNn": {
+          "Description": "A universal engineering tool granting advantage on mechanical repair or crafting rolls.",
+          "Name": "Omni-Tool",
+          "Type": "loot"
+        },
+        "JRUxTFswAzhD4jem": {
+          "Description": "A tiny scout drone controlled by wrist-link; make a Power Roll to control it up to Far range.",
+          "Name": "Micro-Drone",
+          "Type": "loot"
+        },
+        "kU3C6hQNFaJqbDnf": {
+          "Description": "A skin-flush container that conceals one small weapon or tiny items.",
+          "Name": "Hidden Compartment",
+          "Type": "loot"
+        },
+        "lWzoaNrlSHWKzHqZ": {
+          "Description": "Programmable nano-fabric that changes color, texture, and shape.",
+          "Name": "Smart-Weave Cloak",
+          "Type": "loot"
+        },
+        "MFK6n44SvMUb3Mv2": {
+          "Description": "A portable medical tool granting advantage on rolls to treat biological injuries.",
+          "Name": "Surgical Multi-Tool",
+          "Type": "loot"
+        },
+        "MmGpocSxvrlttOGz": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nSelf-Sustaining: You do not need to breathe and can survive in the cold vacuum of space.",
+          "Name": "Exo-Lung",
+          "Type": "loot"
+        },
+        "nNDxH0FJ23vECEx0": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nYou can grab things within Close range. Mark a Stress to use the appendage as a Strength or Finesse Close weapon that deals d10 + your level kinetic damage using Proficiency.",
+          "Name": "Telescopic Appendage",
+          "Type": "loot"
+        },
+        "nRs2TNhaRSSZd4wh": {
+          "Description": "Electromagnetic gloves for climbing vertical walls and ceilings.",
+          "Name": "Mag-Grips",
+          "Type": "loot"
+        },
+        "piKL5GhXEP9iKtKL": {
+          "Description": "A hydraulic spreader that grants advantage to force open sealed doors.",
+          "Name": "Hydra-Jack",
+          "Type": "loot"
+        },
+        "Q1LVVvDmJZAeevFX": {
+          "Description": "A rugged storage unit for transporting large or dangerous data offline.",
+          "Name": "Mobile Data Port",
+          "Type": "loot"
+        },
+        "Q2zSUQvbMm8xQSOe": {
+          "Description": "A voice analyzer that lets you mimic a target after listening for one minute.",
+          "Name": "Poly-Vox Unit",
+          "Type": "loot"
+        },
+        "qcN9F9tyrkeF6btY": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nAnalytical: You have advantage on rolls related to analysis, planning, or calculations.",
+          "Name": "Prefrontal Logic Matrix METIS",
+          "Type": "loot"
+        },
+        "sGUsODLbZ9BVYtSq": {
+          "Description": "A neural feedback processor for investigating raw memory recordings with advantage.",
+          "Name": "Mnemo-Deck",
+          "Type": "loot"
+        },
+        "Sj9PAOCnwy5W4JFI": {
+          "Description": "A compact mask with toxin filtering and 1 hour of recycled oxygen.",
+          "Name": "Rebreather Mask",
+          "Type": "loot"
+        },
+        "sZeDGIyDosf7j1fC": {
+          "Description": "A molecular filter canteen that converts unsafe liquid into drinking water.",
+          "Name": "Purification Flask",
+          "Type": "loot"
+        },
+        "ta4XhHgSP90iPtmn": {
+          "Description": "Spend a Hope to silence your movement until the end of the scene.",
+          "Name": "Sonic Nullifier",
+          "Type": "loot"
+        },
+        "tJnXy9kMqgM9tpgF": {
+          "Description": "A scanner for species, health status, toxins, and diseases.",
+          "Name": "Bio-Metric Reader",
+          "Type": "loot"
+        },
+        "tTBmWpnB4iLY64XD": {
+          "Description": "A decryption interface that grants advantage to hacking attempts.",
+          "Name": "Intrusion-Deck",
+          "Type": "loot"
+        },
+        "UxaOWpanVUSexxxM": {
+          "Description": "A deployable perimeter scanner that alerts you to movement within Far range.",
+          "Name": "Portable Sensor Array",
+          "Type": "loot"
+        },
+        "v5Mf4QaCn9MsSjPk": {
+          "Description": "A throat patch for silent linked communication within 1 mile.",
+          "Name": "Sub-Vocal Patch",
+          "Type": "loot"
+        },
+        "V7FGfAGyLdu8ESFi": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nNeural Plasticity: When you fail a roll that utilized one of your Experiences, mark a Stress to reroll.",
+          "Name": "Neuro-Chem Pump",
+          "Type": "loot"
+        },
+        "vFZRHm2ZBGcAodm1": {
+          "Description": "A high-intensity baton that floods a large room with bright light.",
+          "Name": "SOL Rod",
+          "Type": "loot"
+        },
+        "VqRNHY70EYVYluxJ": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nPain Tolerance: When you take Minor damage, mark 2 Stress instead of marking a Hit Point.",
+          "Name": "Spinal Nociceptor Shunt",
+          "Type": "loot"
+        },
+        "W39hY5IMuLILBZCG": {
+          "Description": "A 3D topographic navigation map with waypoints and route tracking.",
+          "Name": "Holo-Map",
+          "Type": "loot"
+        },
+        "xiXhHcwEOmv0LICF": {
+          "Description": "An anti-grav clamp that makes a heavy object weightless and easy to push.",
+          "Name": "Grav-Lifter",
+          "Type": "loot"
+        },
+        "Xl5xhiOV9mx5DbUZ": {
+          "Description": "A camouflaging insulated smart-fabric shelter for up to four people.",
+          "Name": "Smart-Weave Shelter",
+          "Type": "loot"
+        },
+        "yb0Prb8uKOlgxSGJ": {
+          "Description": "Digital long-range lenses with low-light and thermal imaging.",
+          "Name": "Macro-Binoculars",
+          "Type": "loot"
+        },
+        "yN5TFXRaWPW2xHIx": {
+          "Description": "Fingerprint-locked restraints that only open for the sealing print.",
+          "Name": "Biometric Cuffs",
+          "Type": "loot"
+        },
+        "z4RGAl3e3S3M3Cfh": {
+          "Description": "Blocks wireless communication and remote signals within Far range; wireless attempts require Power Roll 25.",
+          "Name": "Signal Disruptor",
+          "Type": "loot"
+        },
+        "zSxdJTA0CEadrF9J": {
+          "Description": "An electronic bypass spike that grants advantage on Finesse Rolls to open locked interfaces.",
+          "Name": "Data-Spike",
+          "Type": "loot"
+        },
+        "ZxzRXbjXJ7KZgxPf": {
+          "Description": "Cybernetic Implant: Installing this implant permanently marks 1 Trauma.\nBio-Armor: Gain a bonus to your damage thresholds equal to your Proficiency.",
+          "Name": "Polymerized Dermis",
+          "Type": "loot"
+        }
+      },
+      "tnu-consumables": {
+        "1IXBtkx22RFh6QLf": {
+          "Description": "Mark a Stress. Until scene end, gain Swift: +1 Agility.",
+          "Name": "Reflex-Shot",
+          "Type": "consumable"
+        },
+        "1rBG0s1IzzvY4zH5": {
+          "Description": "Make a Power Roll against a Close target. On a success, the target becomes temporarily Restrained.",
+          "Name": "Grav Disc",
+          "Type": "consumable"
+        },
+        "3CqyIjPvrWNcbTds": {
+          "Description": "A sleep drug that forces artificial REM cycles with gray, hollow dreams.",
+          "Name": "Somnien M0-RPH3-U5",
+          "Type": "consumable"
+        },
+        "5OBAVW1t8ciejKjG": {
+          "Description": "Channel a psionic Power from your vault once, then return it to the vault; the shard breaks.",
+          "Name": "Resonance Shard [Echo]",
+          "Type": "consumable"
+        },
+        "Bip1JtZAkZFHJVrD": {
+          "Description": "Attach to an energy weapon to add +1 to your next three damage rolls with that weapon.",
+          "Name": "Plasma-Surge Cell",
+          "Type": "consumable"
+        },
+        "CsbbDIW8wxsjjqyh": {
+          "Description": "Clear 1d4 Stress. You cannot use another combat-stim until you complete a rest.",
+          "Name": "Combat-Stim",
+          "Type": "consumable"
+        },
+        "CyC7vRYN27w8F31b": {
+          "Description": "Spend any number of Hope and clear that many Armor Slots.",
+          "Name": "Nano-Weaver",
+          "Type": "consumable"
+        },
+        "DS0HhiRfHqOlM6ym": {
+          "Description": "When you Utilize an Experience, mark a Stress instead of spending Hope to double the Experience modifier.",
+          "Name": "Neural-Stim",
+          "Type": "consumable"
+        },
+        "eHWJEmcM6csI5wxd": {
+          "Description": "Clear 1d4+1 Stress. You cannot use another combat-stim until you complete a rest.",
+          "Name": "Advanced Combat-Stim",
+          "Type": "consumable"
+        },
+        "FghRmyWEXrCCzmol": {
+          "Description": "Coat a kinetic weapon or ammunition; add 2d6 to your next damage roll with that weapon.",
+          "Name": "Advanced Neuro-Toxin",
+          "Type": "consumable"
+        },
+        "HbmMTldJnMTHU2z7": {
+          "Description": "While covered and stationary, you are Shrouded for one scene.",
+          "Name": "Camo Shroud",
+          "Type": "consumable"
+        },
+        "HnrFszP68Tf568Ct": {
+          "Description": "Apply to a wound to clear 1d4 Hit Points. You cannot use another med-patch until you complete a rest.",
+          "Name": "Med-Patch",
+          "Type": "consumable"
+        },
+        "Hu4q6S3zR5iS8Fuk": {
+          "Description": "Creates an orbit-visible flame and broadcasts encrypted coordinates.",
+          "Name": "Distress Beacon Flare",
+          "Type": "consumable"
+        },
+        "jHCtkt8aNGQAIXBF": {
+          "Description": "Automatically fool a scanner or electronic lock with a fake ID signal, then burn out.",
+          "Name": "Identity Scrambler",
+          "Type": "consumable"
+        },
+        "k240uW1ARx4n5G0j": {
+          "Description": "All targets within Very Close range become Dazed until after their next spotlight.",
+          "Name": "Nova-Pulse Detonator",
+          "Type": "consumable"
+        },
+        "kd8uQD19LgktJCfu": {
+          "Description": "Nullifies gravity within Very Close range, allowing levitation and drifting across gaps for Far range.",
+          "Name": "Zero-G Emitter",
+          "Type": "consumable"
+        },
+        "KF71I5th7pt2N2dw": {
+          "Description": "Make a Power Roll against a Close target. On a success, target and creatures within Very Close range make Reaction Roll 13 or take 3d8+6 energy damage, half on success.",
+          "Name": "Thermal Grenade",
+          "Type": "consumable"
+        },
+        "kFBXSK3haAl01ypF": {
+          "Description": "Make a Power Roll against a Close mechanical or cybernetic target. On a success, the target is temporarily Stunned.",
+          "Name": "Logic-Bomb Transmitter",
+          "Type": "consumable"
+        },
+        "KJWKbGrRAhpMHjCD": {
+          "Description": "Spend a Hope to alter your face enough to be unrecognizable until your next rest.",
+          "Name": "Mimic-Film",
+          "Type": "consumable"
+        },
+        "kR1CA9ikoA9mFjPC": {
+          "Description": "Choose one additional downtime move.",
+          "Name": "Splicer Injection Polyphasic",
+          "Type": "consumable"
+        },
+        "LdgIdNiWVDh4AmMA": {
+          "Description": "Launch yourself to a location within Far range without a check; burns out on landing.",
+          "Name": "Pulse-Thruster",
+          "Type": "consumable"
+        },
+        "lfM1qOqIGLjTIYGs": {
+          "Description": "Fly until scene end; afterward the unit is useless dead weight.",
+          "Name": "Disposable Jet Pack",
+          "Type": "consumable"
+        },
+        "lsw68ZxWXy7NjYD7": {
+          "Description": "Fuse a closed door, hatch, or airlock shut; it cannot be picked or hacked.",
+          "Name": "Fuse Strip",
+          "Type": "consumable"
+        },
+        "m2XOvxgOrH6XRviR": {
+          "Description": "Make a Power Roll against a Close target. On a success, target and creatures within Very Close range make Reaction Roll 13 or take 2d6+3 kinetic damage, half on success.",
+          "Name": "Mono-Edge Particle Grenade",
+          "Type": "consumable"
+        },
+        "MGPFsxphIQqu3G1x": {
+          "Description": "Mark a Stress. Until scene end, gain Deft: +1 Finesse.",
+          "Name": "Focus-Dose",
+          "Type": "consumable"
+        },
+        "NL08QRLwgUxtfJEY": {
+          "Description": "See in total darkness until your next rest.",
+          "Name": "Splicer Injection Nocturna",
+          "Type": "consumable"
+        },
+        "OtcAIivax5ghvzk0": {
+          "Description": "Clear 1d4+1 Hit Points. You cannot use another med-patch until you complete a rest.",
+          "Name": "Advanced Med-Patch",
+          "Type": "consumable"
+        },
+        "qE3RzcG8E4xKvDfz": {
+          "Description": "Mark a Stress. Gain Brilliant: +1 Knowledge.",
+          "Name": "Cogni-Boost",
+          "Type": "consumable"
+        },
+        "tHBVrDRxKeA1GmGb": {
+          "Description": "Climb vertical surfaces and ceilings for minutes equal to your level.",
+          "Name": "Splicer Injection Arachnida",
+          "Type": "consumable"
+        },
+        "tlQEbC1yhZCnCgMS": {
+          "Description": "Coat a kinetic weapon or ammunition; add 1d6 to your next damage roll with that weapon.",
+          "Name": "Neuro-Toxin",
+          "Type": "consumable"
+        },
+        "tLvfRYeMTt3VGnQL": {
+          "Description": "Make a Power Roll against a Close target. On a success, the target is Vulnerable until scene end.",
+          "Name": "Nanite Targeting Swarm",
+          "Type": "consumable"
+        },
+        "vr7TPmIaSmtoY3Sj": {
+          "Description": "Attach to an energy weapon to add +2 to your next three damage rolls with that weapon.",
+          "Name": "Advanced Plasma-Surge Cell",
+          "Type": "consumable"
+        },
+        "XH5DI5L0QFk7YZnA": {
+          "Description": "Mark a Stress. Until scene end, gain Lucid: +1 Instinct.",
+          "Name": "Sensory-Inhaler",
+          "Type": "consumable"
+        },
+        "xQa7Uz0Fmejvv3K2": {
+          "Description": "Mark a Stress. Until scene end, gain Aura: +1 Presence.",
+          "Name": "Ego-Tab",
+          "Type": "consumable"
+        },
+        "y34bYDAAOzagRFxM": {
+          "Description": "Until scene end, cameras and biometric scanners cannot identify your face.",
+          "Name": "Face-Glitch Node",
+          "Type": "consumable"
+        },
+        "YIe0Udf64fa6FVYe": {
+          "Description": "If used during a long rest, gain 2 Hope.",
+          "Name": "Exquisite Somnien PH4-NT4-ST0S",
+          "Type": "consumable"
+        },
+        "yvBecHXPBv8vpBhr": {
+          "Description": "Gain advantage on rolls to persuade, charm, or deceive organic creatures until the scene ends.",
+          "Name": "Synthetic Pheromone",
+          "Type": "consumable"
+        },
+        "ZeJIFe8TFQDaL1jd": {
+          "Description": "During a rest, mark any number of Stress and clear that many Hit Points.",
+          "Name": "Metabolic Infusion",
+          "Type": "consumable"
+        },
+        "ZlzH3gIHgEoPN8h0": {
+          "Description": "Mark a Stress. Until scene end, gain Powered: +1 Strength.",
+          "Name": "Myo-Stim",
+          "Type": "consumable"
+        },
+        "ZzymNdvBQmE9iWdN": {
+          "Description": "Breathe underwater for minutes equal to your level.",
+          "Name": "Splicer Injection Amphibia",
+          "Type": "consumable"
+        }
+      },
+      "tnu-journals": {
+        "3cfljGkpuWfRSvss": {
+          "Name": "Echo",
+          "Page": {
+            "0": {
+              "Content": "Echo is an internal extraordinary power source, interpreted as psionics, biotics, paracausality, or another setting-appropriate force.\nEcho is available to Broken, Resonant, Stray, and Primus. Broken and Resonant are volatile Echo users with lower maximums and stronger in-scene generation; Stray and Primus are reservoirs with deeper pools that usually recover through rest.",
+              "Name": "Echo"
+            }
+          },
+          "Type": "base"
+        },
+        "B8o4oq7iLNTCLNlY": {
+          "Name": "New Rules in TNU",
+          "Page": {
+            "0": {
+              "Content": "Daggerheart SRD rules apply unless TNU says otherwise.\nTNU domain cards use Skill, Tech, Psionic, Engram, and Sigil card types. In v2.0_Mind, the playable cards are Skill, Tech, and Sigil.\nCharges are stored on Tech cards and charge-storing class features. After a long rest, unused Charge tokens are lost.\nSigil cards begin on their Seal side. After successful use, mark a Hit Point to flip to Release; after Release is used, flip back to Seal.",
+              "Name": "New Rules in TNU"
+            }
+          },
+          "Type": "base"
+        },
+        "niWxlE7ZbS5Lh6yC": {
+          "Name": "Licensing and Resources",
+          "Page": {
+            "0": {
+              "Content": "The New Unknown is an unofficial third-party Daggerheart project by EuryDice - Echoes of Ink.\nKickstarter: https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game\nPatreon: https://www.patreon.com/c/Eurydice_echoes_of_ink\nDaggerheart SRD: https://www.daggerheart.com/srd/\nDarrington Press Community Gaming License: https://darringtonpress.com/license/",
+              "Name": "Licensing and Resources"
+            }
+          },
+          "Type": "base"
+        },
+        "r4pBYF8Cs4I7EX7g": {
+          "Name": "Terminology and Conditions",
+          "Page": {
+            "0": {
+              "Content": "TNU uses Kinetic (kin) and Energy (ene) as damage types. In Foundryborn these are mapped to physical and magical damage where needed.\nScars are called Trauma. Each Trauma reduces maximum Hope by 1.\nDazzed: attack rolls take -2. Distracted: Difficulty takes -2. Hidden: rolls against you have disadvantage until you reveal yourself. Shrouded: Hidden, and you remain unseen while stationary. Restrained: you cannot move. Stunned: no reactions and no other action. Vulnerable: rolls targeting you have advantage. Weakened: disadvantage on attack rolls.\nSpellcast Trait is called Power Trait in TNU.",
+              "Name": "Terminology and Conditions"
+            }
+          },
+          "Type": "base"
+        },
+        "yU5C3oGaPG0SalAC": {
+          "Name": "Classes and Domains Overview",
+          "Page": {
+            "0": {
+              "Content": "Playtest v2.0_Mind includes full rules for Protean, Cheat, and Architect, plus Spectre, Bounty Hunter, and Living Arsenal foundation subclasses.\nSphere of Mind: Mercury - The Impulse, Saturn - The Shadow, Uranus - The Spark.\nSphere of Heart: Pluto - The End, Venus - The Voice, Terra - The Seed.\nSphere of Fist: Neptune - The Dream, Jupiter - The Shield, Mars - The Sword.",
+              "Name": "Classes and Domains Overview"
+            }
+          },
+          "Type": "base"
+        },
+        "zqiIUShH4CABKPyy": {
+          "Name": "Campaign Frame: X//666 HELLRAVE",
+          "Page": {
+            "0": {
+              "Content": "NARI-5 has one year left under a failing worldshield as CARMINE approaches death-bloom.\nRifts open across the neon city-planet and release demonic swarms. Player characters are wired outcasts hired to cull outbreaks, steal shield resources, and chase rumors of the Ark.\nTone: neon, maximalist, ferocious, sleek, desperate-but-defiant, techno. Themes: last pleasure, contracted violence, survival by theft.",
+              "Name": "Campaign Frame: X//666 HELLRAVE"
+            }
+          },
+          "Type": "base"
+        }
+      }
+    },
+    "Feature": {
+      "Weapon": {
+        "dhsAdrenalineD10": {
+          "Action": {
+            "0": {
+              "Description": "When all Stress is marked, use a d10 damage die with this weapon.",
+              "Name": "Adrenaline"
+            }
+          },
+          "Description": "When all Stress is marked, use a d10 damage die with this weapon.",
+          "Label": "Adrenaline"
+        },
+        "dhsAdrenalineD12": {
+          "Action": {
+            "0": {
+              "Description": "When all Stress is marked, use a d12 damage die with this weapon.",
+              "Name": "Adrenaline"
+            }
+          },
+          "Description": "When all Stress is marked, use a d12 damage die with this weapon.",
+          "Label": "Adrenaline"
+        },
+        "dhsAmplified": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, roll one extra damage die and discard the lowest.",
+              "Name": "Amplified"
+            }
+          },
+          "Description": "Roll one extra damage die and discard the lowest.",
+          "Label": "Amplified"
+        },
+        "dhsBarrierEvasion": {
+          "Description": "+1 Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "+1 Evasion.",
+              "Name": "Barrier"
+            }
+          },
+          "Label": "Barrier"
+        },
+        "dhsBastion": {
+          "Description": "+2 Armor Score; -1 Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "+2 Armor Score; -1 Evasion.",
+              "Name": "Bastion"
+            }
+          },
+          "Label": "Bastion"
+        },
+        "dhsBlock": {
+          "Description": "+1 Armor Score.",
+          "Effect": {
+            "0": {
+              "Description": "+1 Armor Score.",
+              "Name": "Block"
+            }
+          },
+          "Label": "Block"
+        },
+        "dhsBulky": {
+          "Description": "-1 to Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Evasion.",
+              "Name": "Bulky"
+            }
+          },
+          "Label": "Bulky"
+        },
+        "dhsConstrict": {
+          "Action": {
+            "0": {
+              "Description": "Spend Hope to temporarily Restrain the target.",
+              "Name": "Constrict"
+            }
+          },
+          "Description": "Spend Hope to temporarily Restrain the target.",
+          "Label": "Constrict"
+        },
+        "dhsDeadZone": {
+          "Action": {
+            "0": {
+              "Description": "This weapon has disadvantage at Melee and Very Close range.",
+              "Name": "Dead Zone"
+            }
+          },
+          "Description": "Disadvantage at Melee and Very Close range.",
+          "Label": "Dead Zone"
+        },
+        "dhsDeflectingDice": {
+          "Action": {
+            "0": {
+              "Description": "Matching damage dice are discarded from attacker damage.",
+              "Name": "Deflecting"
+            }
+          },
+          "Description": "Matching damage dice are discarded from attacker damage.",
+          "Label": "Deflecting"
+        },
+        "dhsDrag": {
+          "Action": {
+            "0": {
+              "Description": "On a hit, pull the target into Melee range.",
+              "Name": "Drag"
+            }
+          },
+          "Description": "Pull target into Melee range on hit.",
+          "Label": "Drag"
+        },
+        "dhsFlexibleWeapon": {
+          "Action": {
+            "0": {
+              "Description": "Mark Stress to target another creature in range.",
+              "Name": "Flexible"
+            }
+          },
+          "Description": "Mark Stress to target another creature in range.",
+          "Label": "Flexible"
+        },
+        "dhsHybridFinesse": {
+          "Action": {
+            "0": {
+              "Description": "May also use Finesse, Melee range, d10 damage.",
+              "Name": "Hybrid"
+            }
+          },
+          "Description": "May also use Finesse, Melee range, d10 damage.",
+          "Label": "Hybrid"
+        },
+        "dhsHybridInstinct": {
+          "Action": {
+            "0": {
+              "Description": "May also use Instinct, Melee range, d10 damage.",
+              "Name": "Hybrid"
+            }
+          },
+          "Description": "May also use Instinct, Melee range, d10 damage.",
+          "Label": "Hybrid"
+        },
+        "dhsImpactZone": {
+          "Action": {
+            "0": {
+              "Description": "Target and nearby creatures make Reaction Roll 13 or take damage; success halves damage.",
+              "Name": "Impact Zone"
+            }
+          },
+          "Description": "Target and nearby creatures make Reaction Roll 13 or take damage; success halves damage.",
+          "Label": "Impact Zone"
+        },
+        "dhsLethal": {
+          "Action": {
+            "0": {
+              "Description": "When you deal Severe damage, the target marks one additional HP.",
+              "Name": "Lethal"
+            }
+          },
+          "Description": "Severe damage marks one additional HP.",
+          "Label": "Lethal"
+        },
+        "dhsLocked": {
+          "Action": {
+            "0": {
+              "Description": "Spend Hope for advantage.",
+              "Name": "Locked"
+            }
+          },
+          "Description": "Spend Hope for advantage.",
+          "Label": "Locked"
+        },
+        "dhsOffHand": {
+          "Description": "+2 primary weapon damage to Melee targets.",
+          "Effect": {
+            "0": {
+              "Description": "+2 primary weapon damage to Melee targets.",
+              "Name": "Off-Hand"
+            }
+          },
+          "Label": "Off-Hand"
+        },
+        "dhsOneOnOne": {
+          "Action": {
+            "0": {
+              "Description": "Gain advantage if no other creatures are Close to the target.",
+              "Name": "One-on-One"
+            }
+          },
+          "Description": "Advantage if no other creatures are Close to the target.",
+          "Label": "One-on-One"
+        },
+        "dhsPointBlank": {
+          "Action": {
+            "0": {
+              "Description": "Within Close range, use a d8 damage die.",
+              "Name": "Point-Blank"
+            }
+          },
+          "Description": "Within Close range, use a d8 damage die.",
+          "Label": "Point-Blank"
+        },
+        "dhsPowerStrike": {
+          "Description": "Add Strength to damage rolls.",
+          "Effect": {
+            "0": {
+              "Description": "Add Strength to damage rolls.",
+              "Name": "Power Strike"
+            }
+          },
+          "Label": "Power Strike"
+        },
+        "dhsPrecise": {
+          "Description": "+1 to attack rolls.",
+          "Effect": {
+            "0": {
+              "Description": "+1 to attack rolls.",
+              "Name": "Precise"
+            }
+          },
+          "Label": "Precise"
+        },
+        "dhsPull": {
+          "Action": {
+            "0": {
+              "Description": "On a hit, pull yourself into Melee range of the target.",
+              "Name": "Pull"
+            }
+          },
+          "Description": "Pull yourself into Melee range of the target on hit.",
+          "Label": "Pull"
+        },
+        "dhsRupture": {
+          "Action": {
+            "0": {
+              "Description": "When a damage die rolls its maximum, roll another die.",
+              "Name": "Rupture"
+            }
+          },
+          "Description": "When a damage die rolls its maximum, roll another die.",
+          "Label": "Rupture"
+        },
+        "dhsShieldedKnowledge": {
+          "Description": "+2 Armor Score; -1 Knowledge.",
+          "Effect": {
+            "0": {
+              "Description": "+2 Armor Score; -1 Knowledge.",
+              "Name": "Shielded"
+            }
+          },
+          "Label": "Shielded"
+        },
+        "dhsShieldedStress": {
+          "Description": "+2 Armor Score; -1 Stress.",
+          "Effect": {
+            "0": {
+              "Description": "+2 Armor Score; -1 Stress.",
+              "Name": "Shielded"
+            }
+          },
+          "Label": "Shielded"
+        },
+        "dhsShockwave": {
+          "Action": {
+            "0": {
+              "Description": "All adversaries within Very Close range mark Stress.",
+              "Name": "Shockwave"
+            }
+          },
+          "Description": "All adversaries within Very Close range mark Stress.",
+          "Label": "Shockwave"
+        },
+        "dhsSpreadfire": {
+          "Action": {
+            "0": {
+              "Description": "Target all creatures in front within range.",
+              "Name": "Spreadfire"
+            }
+          },
+          "Description": "Target all creatures in front within range.",
+          "Label": "Spreadfire"
+        },
+        "dhsStraining": {
+          "Action": {
+            "0": {
+              "Description": "On a hit, the target marks Stress.",
+              "Name": "Straining"
+            }
+          },
+          "Description": "On a hit, the target marks Stress.",
+          "Label": "Straining"
+        },
+        "dhsSynced": {
+          "Action": {
+            "0": {
+              "Description": "Spend Hope for +2 primary weapon damage.",
+              "Name": "Synced"
+            }
+          },
+          "Description": "Spend Hope for +2 primary weapon damage.",
+          "Label": "Synced"
+        },
+        "dhsTether": {
+          "Action": {
+            "0": {
+              "Description": "Spend Hope to Restrain or pull the target to Melee.",
+              "Name": "Tether"
+            }
+          },
+          "Description": "Spend Hope to Restrain or pull the target to Melee.",
+          "Label": "Tether"
+        },
+        "dhsUnleash": {
+          "Action": {
+            "0": {
+              "Description": "Mark Stress to force Melee adversaries back to Close range.",
+              "Name": "Unleash"
+            }
+          },
+          "Description": "Mark Stress to force Melee adversaries back to Close range.",
+          "Label": "Unleash"
+        },
+        "dhsUnwieldyFinesse": {
+          "Description": "-1 to Finesse.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Finesse.",
+              "Name": "Unwieldy"
+            }
+          },
+          "Label": "Unwieldy"
+        },
+        "dhsWardedWeapon": {
+          "Description": "+1 Armor Score.",
+          "Effect": {
+            "0": {
+              "Description": "+1 Armor Score.",
+              "Name": "Warded"
+            }
+          },
+          "Label": "Warded"
+        },
+        "dhsOpportunistD10": {
+          "Action": {
+            "0": {
+              "Description": "When you attack with advantage, use a d10 damage die.",
+              "Name": "Opportunist"
+            }
+          },
+          "Description": "With advantage, use d10 damage die.",
+          "Label": "Opportunist"
+        },
+        "dhsOpportunistD12": {
+          "Action": {
+            "0": {
+              "Description": "When you attack with advantage, use a d12 damage die.",
+              "Name": "Opportunist"
+            }
+          },
+          "Description": "With advantage, use d12 damage die.",
+          "Label": "Opportunist"
+        }
+      },
+      "Armor": {
+        "dhsAdaptive": {
+          "Description": "+1 to Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "+1 to Evasion.",
+              "Name": "Adaptive"
+            }
+          },
+          "Label": "Adaptive"
+        },
+        "dhsBiocharged": {
+          "Action": {
+            "0": {
+              "Description": "Mark Stress for +1 Proficiency on a primary weapon attack.",
+              "Name": "Biocharged"
+            }
+          },
+          "Description": "Mark Stress for +1 Proficiency on a primary weapon attack.",
+          "Label": "Biocharged"
+        },
+        "dhsBulkyArmor": {
+          "Description": "-1 to Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Evasion.",
+              "Name": "Bulky"
+            }
+          },
+          "Label": "Bulky"
+        },
+        "dhsCornered": {
+          "Action": {
+            "0": {
+              "Description": "When all Stress is marked, gain advantage on attack rolls.",
+              "Name": "Cornered"
+            }
+          },
+          "Description": "When all Stress is marked, gain advantage on attack rolls.",
+          "Label": "Cornered"
+        },
+        "dhsDeflectArmor": {
+          "Action": {
+            "0": {
+              "Description": "After a hit, mark an Armor Slot to reduce the attack roll by unmarked Armor Slots.",
+              "Name": "Deflect"
+            }
+          },
+          "Description": "After a hit, mark an Armor Slot to reduce the attack roll by unmarked Armor Slots.",
+          "Label": "Deflect"
+        },
+        "dhsMassiveArmor": {
+          "Description": "-2 to Evasion; -1 to Agility.",
+          "Effect": {
+            "0": {
+              "Description": "-2 to Evasion; -1 to Agility.",
+              "Name": "Massive"
+            }
+          },
+          "Label": "Massive"
+        },
+        "dhsPhantom": {
+          "Action": {
+            "0": {
+              "Description": "Mark an Armor Slot to give attacks disadvantage until damaged or scene ends.",
+              "Name": "Phantom"
+            }
+          },
+          "Description": "Mark an Armor Slot to give attacks disadvantage until damaged or scene ends.",
+          "Label": "Phantom"
+        },
+        "dhsRegrowth": {
+          "Action": {
+            "0": {
+              "Description": "During downtime, automatically clear an Armor Slot.",
+              "Name": "Regrowth"
+            }
+          },
+          "Description": "During downtime, automatically clear an Armor Slot.",
+          "Label": "Regrowth"
+        },
+        "dhsStims": {
+          "Action": {
+            "0": {
+              "Description": "During downtime, automatically clear a Stress.",
+              "Name": "Stims"
+            }
+          },
+          "Description": "During downtime, automatically clear a Stress.",
+          "Label": "Stims"
+        },
+        "dhsTransfer": {
+          "Action": {
+            "0": {
+              "Description": "Mark an Armor Slot instead of Stress.",
+              "Name": "Transfer"
+            }
+          },
+          "Description": "Mark an Armor Slot instead of Stress.",
+          "Label": "Transfer"
+        }
+      }
+    },
+    "Domain": {
+      "Jupiter": {
+        "Description": "Protection, command, honor, defense, and steadfast resolve.",
+        "Label": "Jupiter - The Shield"
+      },
+      "Mars": {
+        "Description": "Direct violence, martial prowess, pressure, and decisive force.",
+        "Label": "Mars - The Sword"
+      },
+      "Mercury": {
+        "Description": "Fast tactical movement, initiative, adaptation, and split-second decisions.",
+        "Label": "Mercury - The Impulse"
+      },
+      "Neptune": {
+        "Description": "Vision, mystery, intuition, unreality, and altered perception.",
+        "Label": "Neptune - The Dream"
+      },
+      "Pluto": {
+        "Description": "Sigils, finality, sacrifice, trauma, death, and forbidden power.",
+        "Label": "Pluto - The End"
+      },
+      "Saturn": {
+        "Description": "Stealth, misdirection, holograms, infiltration, and hidden approaches.",
+        "Label": "Saturn - The Shadow"
+      },
+      "Terra": {
+        "Description": "Growth, biology, survival, restoration, and living systems.",
+        "Label": "Terra - The Seed"
+      },
+      "Uranus": {
+        "Description": "Experimental technology, charges, energy tools, and unstable breakthroughs.",
+        "Label": "Uranus - The Spark"
+      },
+      "Venus": {
+        "Description": "Influence, emotion, connection, persuasion, and social pressure.",
+        "Label": "Venus - The Voice"
+      }
+    },
+    "DomainCardType": {
+      "Sigil": "Sigil",
+      "Skill": "Skill",
+      "Tech": "Tech"
+    }
+  }
+}

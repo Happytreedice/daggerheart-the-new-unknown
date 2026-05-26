@@ -1,0 +1,34 @@
+{
+  "name": "Focus-Dose",
+  "type": "consumable",
+  "img": "icons/tools/laboratory/injector-needle-syringe-plunger.webp",
+  "system": {
+    "description": "<p>Mark a Stress. Until scene end, gain Deft: +1 Finesse.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "expendable",
+      "roll": 29,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "MGPFsxphIQqu3G1x",
+  "sort": 0,
+  "_key": "!items!MGPFsxphIQqu3G1x"
+}

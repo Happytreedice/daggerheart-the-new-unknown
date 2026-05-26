@@ -1,0 +1,33 @@
+{
+  "name": "Sonic Nullifier",
+  "type": "loot",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>Spend a Hope to silence your movement until the end of the scene.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "gear",
+      "roll": 37,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "ta4XhHgSP90iPtmn",
+  "sort": 0,
+  "_key": "!items!ta4XhHgSP90iPtmn"
+}

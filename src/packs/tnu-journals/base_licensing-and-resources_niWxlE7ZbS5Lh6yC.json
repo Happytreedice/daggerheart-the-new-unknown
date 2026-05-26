@@ -1,0 +1,40 @@
+{
+  "name": "Licensing and Resources",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Licensing and Resources",
+      "type": "text",
+      "_id": "T9LXyGEwRm6Ak1xx",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The New Unknown is an unofficial third-party Daggerheart project by EuryDice - Echoes of Ink.</p><p>Kickstarter: https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game</p><p>Patreon: https://www.patreon.com/c/Eurydice_echoes_of_ink</p><p>Daggerheart SRD: https://www.daggerheart.com/srd/</p><p>Darrington Press Community Gaming License: https://darringtonpress.com/license/</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!niWxlE7ZbS5Lh6yC.T9LXyGEwRm6Ak1xx"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "niWxlE7ZbS5Lh6yC",
+  "sort": 0,
+  "_key": "!journal!niWxlE7ZbS5Lh6yC"
+}

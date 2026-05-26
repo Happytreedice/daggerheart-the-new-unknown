@@ -1,0 +1,72 @@
+{
+  "name": "Mirror-Neuron Lace",
+  "type": "loot",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>Cybernetic Implant: Installing this implant permanently marks 1 Trauma.</p><p>Empath: Advantage on rolls to sense and understand the emotions of non-hostile creatures.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Empath",
+      "type": "base",
+      "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.advantageSources",
+          "mode": 2,
+          "value": "sensing and understanding non-hostile emotions"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "Advantage on rolls for sensing and understanding non-hostile emotions.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedCybernetic": "Mirror-Neuron Lace"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "C8xJwidujD4X4E4z",
+      "sort": 0,
+      "_key": "!items.effects!aaDOwyzmE9vKjN3E.C8xJwidujD4X4E4z"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "cyberneticImplant",
+      "tier": 2,
+      "traumaCost": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "aaDOwyzmE9vKjN3E",
+  "sort": 0,
+  "_key": "!items!aaDOwyzmE9vKjN3E"
+}

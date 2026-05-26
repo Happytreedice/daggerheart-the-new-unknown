@@ -1,0 +1,38 @@
+{
+  "name": "Terror of Alecto - Seal",
+  "type": "domainCard",
+  "img": "icons/sundries/gaming/rune-card.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against a creature within Close range. On a success, they are temporarily Panicked and must attempt to flee. The GM spotlights the Panicked target after you. Seal: after successfully using this card, mark a Hit Point to flip it to Release.</p>",
+    "domain": "pluto",
+    "type": "sigil",
+    "level": 2,
+    "recallCost": 1,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {},
+    "resource": null,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "zZBnEwajlohyga0T",
+  "sort": 0,
+  "_key": "!items!zZBnEwajlohyga0T"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Grav-Lifter",
+  "type": "loot",
+  "img": "icons/commodities/tech/engine-tech-thrust-jet-teal.webp",
+  "system": {
+    "description": "<p>An anti-grav clamp that makes a heavy object weightless and easy to push.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "gear",
+      "roll": 22,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "xiXhHcwEOmv0LICF",
+  "sort": 0,
+  "_key": "!items!xiXhHcwEOmv0LICF"
+}

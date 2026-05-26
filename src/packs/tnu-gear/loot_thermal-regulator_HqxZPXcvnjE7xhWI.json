@@ -1,0 +1,33 @@
+{
+  "name": "Thermal Regulator",
+  "type": "loot",
+  "img": "icons/equipment/head/helmet-tech-glass-pink.webp",
+  "system": {
+    "description": "<p>A bodysuit layer that protects against extreme heat and cold.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "gear",
+      "roll": 21,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "HqxZPXcvnjE7xhWI",
+  "sort": 0,
+  "_key": "!items!HqxZPXcvnjE7xhWI"
+}

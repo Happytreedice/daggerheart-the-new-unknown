@@ -1,0 +1,65 @@
+{
+  "name": "Architect",
+  "type": "class",
+  "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+  "system": {
+    "description": "<p>A master of advanced systems, experimental tools, and battlefield engineering.</p><p>Scanning Array: Detect technological signatures and exotic energy patterns within Close range. You know whether an object is powered, dormant, or offline.</p><p>System Patch: Once per session, gain a Charge and place it on a Tech card within Close range, or suppress a malfunction or glitch effect until the end of the scene.</p><p>Overload the System: Once per long rest, vault a Tech card from your loadout. Either gain Charges equal to its level and distribute them among charge-storing cards, or return an equal-or-lower-level Tech card from your vault to your loadout.</p><p>Hope Feature - Energy Surge: Spend 3 Hope to gain 2 Charge tokens on a card that can store Charges.</p><p>Class Items: A set of modular tools or a portable power cell.</p>",
+    "domains": [
+      "uranus",
+      "pluto"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 10,
+    "features": [],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "backgroundQuestions": [
+      "Who first showed you how to bend technology beyond its intended purpose?",
+      "What ambitious design remains half-finished in your workshop?",
+      "What guiding principle shapes every system you build?"
+    ],
+    "connections": [
+      "You once helped me test a prototype in the field. What went wrong?",
+      "I built something specifically for you. What is it, and why do you still rely on it?",
+      "You know how much I have changed since the accident. Why do you never mention it?"
+    ],
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "llosN4M2dCFjABRF",
+  "sort": 0,
+  "_key": "!items!llosN4M2dCFjABRF"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Phantom Mesh",
+  "type": "armor",
+  "img": "icons/commodities/tech/plating-metal-armor-tech-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Phantom: mark Armor Slot to give attacks disadvantage until damaged or scene ends</p>",
+    "quantity": 1,
+    "actions": {
+      "HTEIvxjYfBul2mQu": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Phantom",
+        "description": "Mark an Armor Slot to give attacks disadvantage until damaged or scene ends.",
+        "img": "icons/skills/melee/shield-block-bash-blue.webp",
+        "cost": [
+          {
+            "key": "armor",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "HTEIvxjYfBul2mQu",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 3
+    },
+    "baseThresholds": {
+      "major": 7,
+      "severe": 16
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsPhantom",
+        "effectIds": [],
+        "actionIds": [
+          "HTEIvxjYfBul2mQu"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Phantom: mark Armor Slot to give attacks disadvantage until damaged or scene ends"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "68Ua3BzR11keE0Y2",
+  "sort": 0,
+  "_key": "!items!68Ua3BzR11keE0Y2"
+}

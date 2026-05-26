@@ -1,0 +1,33 @@
+{
+  "name": "Bounty Hunter",
+  "type": "subclass",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>A Cheat subclass focused on marking, pursuing, and disabling a target.</p><p>Foundation - Dead or Alive: Spend a Hope to mark a target within Far range as your Bounty until they are defeated or the scene ends. You know their direction, add your level to damage against them, and can mark Stress after damaging them to make them temporarily Distracted or Vulnerable.</p><p>Specialization - No Escape: If your Bounty within Close range attempts to leave that range, you can move with them. Add Restrained and Dazed to the condition choices.</p><p>Mastery - Final Contract: When you damage your Bounty, give two conditions instead of one. Add Stunned to the condition choices.</p>",
+    "spellcastingTrait": "finesse",
+    "features": [],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "Compendium.daggerheart-space.tnu-character-options.Item.dW19p02GwhTCJZFd",
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "YCeGdihRxEva6DvY",
+  "sort": 0,
+  "_key": "!items!YCeGdihRxEva6DvY"
+}

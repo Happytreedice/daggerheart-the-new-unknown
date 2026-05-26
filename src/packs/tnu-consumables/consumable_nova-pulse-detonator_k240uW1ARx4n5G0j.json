@@ -1,0 +1,34 @@
+{
+  "name": "Nova-Pulse Detonator",
+  "type": "consumable",
+  "img": "icons/weapons/thrown/grenade-tech-energy.webp",
+  "system": {
+    "description": "<p>All targets within Very Close range become Dazed until after their next spotlight.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "expendable",
+      "roll": 37,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "k240uW1ARx4n5G0j",
+  "sort": 0,
+  "_key": "!items!k240uW1ARx4n5G0j"
+}

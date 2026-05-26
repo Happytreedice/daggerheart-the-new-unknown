@@ -1,0 +1,38 @@
+{
+  "name": "Retribution of Tisiphone - Seal",
+  "type": "domainCard",
+  "img": "icons/sundries/gaming/rune-card.webp",
+  "system": {
+    "description": "<p>When you take damage from a target within Close range, force Reaction Roll 14. On a failure, mark a Stress to deal d6+2 energy damage using Proficiency. Seal: after successfully using this card, mark a Hit Point to flip it to Release.</p>",
+    "domain": "pluto",
+    "type": "sigil",
+    "level": 2,
+    "recallCost": 2,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {},
+    "resource": null,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "rYUTs5pWQwRXa5Pj",
+  "sort": 0,
+  "_key": "!items!rYUTs5pWQwRXa5Pj"
+}

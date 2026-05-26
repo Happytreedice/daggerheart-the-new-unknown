@@ -1,0 +1,34 @@
+{
+  "name": "Resonance Shard [Echo]",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+  "system": {
+    "description": "<p>Channel a psionic Power from your vault once, then return it to the vault; the shard breaks.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "expendable",
+      "roll": 39,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "5OBAVW1t8ciejKjG",
+  "sort": 0,
+  "_key": "!items!5OBAVW1t8ciejKjG"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Stim-Link Exo-Frame",
+  "type": "armor",
+  "img": "icons/equipment/chest/suit-armored-chest-plated.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Stims: during downtime, automatically clear a Stress</p>",
+    "quantity": 1,
+    "actions": {
+      "27Cf1UsnQfCyBAiY": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Stims",
+        "description": "During downtime, automatically clear a Stress.",
+        "img": "icons/magic/control/fear-fright-mask-orange.webp",
+        "cost": [],
+        "_id": "27Cf1UsnQfCyBAiY",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "baseThresholds": {
+      "major": 9,
+      "severe": 20
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsStims",
+        "effectIds": [],
+        "actionIds": [
+          "27Cf1UsnQfCyBAiY"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Stims: during downtime, automatically clear a Stress"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "7yqojRCb8nx8t8ii",
+  "sort": 0,
+  "_key": "!items!7yqojRCb8nx8t8ii"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Exo-Lung",
+  "type": "loot",
+  "img": "icons/equipment/head/gas-mask.webp",
+  "system": {
+    "description": "<p>Cybernetic Implant: Installing this implant permanently marks 1 Trauma.</p><p>Self-Sustaining: You do not need to breathe and can survive in the cold vacuum of space.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "cyberneticImplant",
+      "tier": 2,
+      "traumaCost": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "MmGpocSxvrlttOGz",
+  "sort": 0,
+  "_key": "!items!MmGpocSxvrlttOGz"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Spectre",
+  "type": "subclass",
+  "img": "icons/equipment/back/cloak-collared-grey.webp",
+  "system": {
+    "description": "<p>A Protean subclass for unseen movement and decisive strikes.</p><p>Foundation - Ghost Strike: When you succeed on an attack with advantage or while Shrouded, spend a Hope to add Tier d6s to the damage roll.</p><p>Specialization - Tactical Cloak: Mark a Stress to become Shrouded at any time until you roll with Fear or the scene ends.</p><p>Mastery - Vanishing Point: Once per rest, when an attack would hit you, mark 2 Stress to become Shrouded, teleport within Far range, and cause the attack to miss.</p>",
+    "spellcastingTrait": "finesse",
+    "features": [],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "Compendium.daggerheart-space.tnu-character-options.Item.R6VShH0DLHFMCM9B",
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "0HNZgFn6XNUsAkcV",
+  "sort": 0,
+  "_key": "!items!0HNZgFn6XNUsAkcV"
+}

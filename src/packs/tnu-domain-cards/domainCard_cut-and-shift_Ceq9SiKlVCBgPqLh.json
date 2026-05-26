@@ -1,0 +1,38 @@
+{
+  "name": "Cut and Shift",
+  "type": "domainCard",
+  "img": "icons/sundries/gaming/playing-cards-grey.webp",
+  "system": {
+    "description": "<p>Make a primary weapon attack against a target within Melee range of one of your allies. On a success, deal damage and the ally can move up to Close range. On a success with Hope, add d6 to damage. Mark a Stress to make an ally Ordered until they roll with Fear.</p>",
+    "domain": "mercury",
+    "type": "skill",
+    "level": 2,
+    "recallCost": 1,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {},
+    "resource": null,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "Ceq9SiKlVCBgPqLh",
+  "sort": 0,
+  "_key": "!items!Ceq9SiKlVCBgPqLh"
+}

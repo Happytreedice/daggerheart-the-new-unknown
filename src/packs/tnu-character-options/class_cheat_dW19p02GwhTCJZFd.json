@@ -1,0 +1,65 @@
+{
+  "name": "Cheat",
+  "type": "class",
+  "img": "icons/equipment/back/cloak-collared-grey.webp",
+  "system": {
+    "description": "<p>A rule-breaker who survives by luck, deception, tech, and perfect timing.</p><p>Loaded Dice: At the start of each session, roll d12s equal to your subclass Power trait. Spend a Loaded Die on an action roll to swap one Duality Die value with the Loaded Die value. Clear unspent Loaded Dice at session end.</p><p>Cheap Tricks: When an adversary moves into Very Close range, mark a Stress to force a Reaction Roll against 10 + your level. On a failure, the target is temporarily Weakened or Vulnerable.</p><p>Hope Feature - Cheat Fate: Spend 3 Hope after an action roll to reroll one or both Duality Dice.</p><p>Class Items: A pair of loaded dice or a signal scrambler.</p>",
+    "domains": [
+      "saturn",
+      "uranus"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 11,
+    "features": [],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "backgroundQuestions": [
+      "Who taught you your first trick, and what betrayal made you stop trusting them?",
+      "What system or law did you learn to bend so well that it became second nature?",
+      "What is the one rule you swore you would never break, and how close are you to crossing it?"
+    ],
+    "connections": [
+      "You once covered for me when a scheme went sideways. What did it cost you?",
+      "I slipped you an edge at the perfect moment. What was it, and why do you still carry it?",
+      "You know the one secret that could ruin me. Why have you not used it against me?"
+    ],
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "dW19p02GwhTCJZFd",
+  "sort": 0,
+  "_key": "!items!dW19p02GwhTCJZFd"
+}

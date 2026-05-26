@@ -1,0 +1,40 @@
+{
+  "name": "New Rules in TNU",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "New Rules in TNU",
+      "type": "text",
+      "_id": "mZMNAqvH6qBwDpZo",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Daggerheart SRD rules apply unless TNU says otherwise.</p><p>TNU domain cards use Skill, Tech, Psionic, Engram, and Sigil card types. In v2.0_Mind, the playable cards are Skill, Tech, and Sigil.</p><p>Charges are stored on Tech cards and charge-storing class features. After a long rest, unused Charge tokens are lost.</p><p>Sigil cards begin on their Seal side. After successful use, mark a Hit Point to flip to Release; after Release is used, flip back to Seal.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!B8o4oq7iLNTCLNlY.mZMNAqvH6qBwDpZo"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "B8o4oq7iLNTCLNlY",
+  "sort": 0,
+  "_key": "!journal!B8o4oq7iLNTCLNlY"
+}

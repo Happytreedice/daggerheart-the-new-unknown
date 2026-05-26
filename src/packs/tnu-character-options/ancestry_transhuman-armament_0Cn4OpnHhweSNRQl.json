@@ -1,0 +1,29 @@
+{
+  "name": "Transhuman - Armament",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Deep Reserves: Gain +1 Stress.</p><p>Hardwired: You can have one cybernetic implant without gaining permanent Trauma. You start with Body Arsenal: a retractable one-handed primary weapon grafted to your body; ignore its burden.</p>",
+    "features": [],
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "0Cn4OpnHhweSNRQl",
+  "sort": 0,
+  "_key": "!items!0Cn4OpnHhweSNRQl"
+}

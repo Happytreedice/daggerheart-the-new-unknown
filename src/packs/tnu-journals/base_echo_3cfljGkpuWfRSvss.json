@@ -1,0 +1,40 @@
+{
+  "name": "Echo",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Echo",
+      "type": "text",
+      "_id": "3ud8tR5yJo0KY2n5",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Echo is an internal extraordinary power source, interpreted as psionics, biotics, paracausality, or another setting-appropriate force.</p><p>Echo is available to Broken, Resonant, Stray, and Primus. Broken and Resonant are volatile Echo users with lower maximums and stronger in-scene generation; Stray and Primus are reservoirs with deeper pools that usually recover through rest.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!3cfljGkpuWfRSvss.3ud8tR5yJo0KY2n5"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "3cfljGkpuWfRSvss",
+  "sort": 0,
+  "_key": "!journal!3cfljGkpuWfRSvss"
+}

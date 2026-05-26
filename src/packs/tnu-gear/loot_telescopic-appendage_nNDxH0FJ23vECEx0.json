@@ -1,0 +1,33 @@
+{
+  "name": "Telescopic Appendage",
+  "type": "loot",
+  "img": "icons/equipment/hand/gauntlet-tooled-steel.webp",
+  "system": {
+    "description": "<p>Cybernetic Implant: Installing this implant permanently marks 1 Trauma.</p><p>You can grab things within Close range. Mark a Stress to use the appendage as a Strength or Finesse Close weapon that deals d10 + your level kinetic damage using Proficiency.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "cyberneticImplant",
+      "tier": 2,
+      "traumaCost": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "nNDxH0FJ23vECEx0",
+  "sort": 0,
+  "_key": "!items!nNDxH0FJ23vECEx0"
+}

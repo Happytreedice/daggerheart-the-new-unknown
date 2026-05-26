@@ -1,0 +1,93 @@
+{
+  "name": "Reactive Mesh",
+  "type": "armor",
+  "img": "icons/commodities/tech/plating-metal-armor-tech-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Bulky: -1 to Evasion</p>",
+    "quantity": 1,
+    "actions": {},
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "baseThresholds": {
+      "major": 7,
+      "severe": 15
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsBulkyArmor",
+        "effectIds": [
+          "mQjFmdiCgF30vC0N"
+        ],
+        "actionIds": []
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "Bulky",
+      "type": "base",
+      "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.evasion",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "-1 to Evasion.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsBulkyArmor"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "mQjFmdiCgF30vC0N",
+      "sort": 0,
+      "_key": "!items.effects!qDfJ5LIHub7Johu8.mQjFmdiCgF30vC0N"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Bulky: -1 to Evasion"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "qDfJ5LIHub7Johu8",
+  "sort": 0,
+  "_key": "!items!qDfJ5LIHub7Johu8"
+}

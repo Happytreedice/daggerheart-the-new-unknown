@@ -1,0 +1,92 @@
+{
+  "name": "Biofeedback Armor",
+  "type": "armor",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Transfer: mark Armor Slot instead of Stress</p>",
+    "quantity": 1,
+    "actions": {
+      "11hY6emMDlkDdWnT": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Transfer",
+        "description": "Mark an Armor Slot instead of Stress.",
+        "img": "icons/skills/melee/shield-block-bash-blue.webp",
+        "cost": [
+          {
+            "key": "armor",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "11hY6emMDlkDdWnT",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 5
+    },
+    "baseThresholds": {
+      "major": 11,
+      "severe": 23
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsTransfer",
+        "effectIds": [],
+        "actionIds": [
+          "11hY6emMDlkDdWnT"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Transfer: mark Armor Slot instead of Stress"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "crUR0jspDEUe24eH",
+  "sort": 0,
+  "_key": "!items!crUR0jspDEUe24eH"
+}

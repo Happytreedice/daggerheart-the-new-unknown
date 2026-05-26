@@ -1,0 +1,150 @@
+{
+  "name": "Nova Grenade",
+  "type": "domainCard",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>Discharged: Power Roll against a Close target; target and creatures within Melee make Reaction Roll 13 or take d20+5 energy damage using Proficiency, half on success, then vault. Charged: spend a Charge to affect Very Close range. Overcharged: spend 2 Charges to target Far range and affect Close range, then vault.</p>",
+    "domain": "uranus",
+    "type": "tech",
+    "level": 3,
+    "recallCost": 3,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {
+      "emYnby4QSqy3cKZv": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Gain Charge",
+        "description": "Place 1 Charge token on this card, up to its maximum.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [],
+        "_id": "emYnby4QSqy3cKZv",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "KlIEdm3Go5zdSe9v": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Spend Charge",
+        "description": "Spend 1 Charge token from this card for its Charged option.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [
+          {
+            "key": "resource",
+            "value": 1,
+            "itemId": "R4WT331SBtd9Lldd",
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "KlIEdm3Go5zdSe9v",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "1k5aETCqDH1N6F84": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Overcharge",
+        "description": "Spend 2 Charge tokens from this card for its Overcharged option.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [
+          {
+            "key": "resource",
+            "value": 2,
+            "itemId": "R4WT331SBtd9Lldd",
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "1k5aETCqDH1N6F84",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "2",
+      "icon": "icons/commodities/tech/electronics-battery-energy-white-green.webp",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "R4WT331SBtd9Lldd",
+  "sort": 0,
+  "_key": "!items!R4WT331SBtd9Lldd"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Monofilament Wire",
+  "type": "domainCard",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>Make a Power Roll to attack a target within Very Close range for d8+2 kinetic damage using Proficiency. If the target is Vulnerable, use d12. Charged: spend a Charge to attack all targets within Very Close range with the same damage.</p>",
+    "domain": "saturn",
+    "type": "tech",
+    "level": 1,
+    "recallCost": 2,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {
+      "TPTKlgNIYPEM4M4R": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Gain Charge",
+        "description": "Place 1 Charge token on this card, up to its maximum.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [],
+        "_id": "TPTKlgNIYPEM4M4R",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "8f5NGwwpuhFeNOCO": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Spend Charge",
+        "description": "Spend 1 Charge token from this card for its Charged option.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [
+          {
+            "key": "resource",
+            "value": 1,
+            "itemId": "4SlVS00AxxgIUvSQ",
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "8f5NGwwpuhFeNOCO",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "self",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "resource": {
+      "type": "simple",
+      "value": 0,
+      "max": "1",
+      "icon": "icons/commodities/tech/electronics-battery-energy-white-green.webp",
+      "recovery": "longRest",
+      "progression": "increasing",
+      "diceStates": {},
+      "dieFaces": "d4"
+    },
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "4SlVS00AxxgIUvSQ",
+  "sort": 0,
+  "_key": "!items!4SlVS00AxxgIUvSQ"
+}

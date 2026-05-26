@@ -1,0 +1,38 @@
+{
+  "name": "Stygian Tribute - Release",
+  "type": "domainCard",
+  "img": "icons/sundries/gaming/rune-card.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against a target within Very Close range. On a success, once per rest deal d12+4 energy damage using Proficiency; clear Hit Points equal to the Hit Points they marked. Release: after use, flip it to Seal.</p>",
+    "domain": "pluto",
+    "type": "sigil",
+    "level": 3,
+    "recallCost": 2,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {},
+    "resource": null,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "rttMyBcG4zz09aNX",
+  "sort": 0,
+  "_key": "!items!rttMyBcG4zz09aNX"
+}

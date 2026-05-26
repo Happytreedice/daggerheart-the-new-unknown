@@ -1,0 +1,83 @@
+{
+  "name": "Visc Carapace",
+  "type": "armor",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Cornered: when all Stress marked, gain advantage on attack rolls</p>",
+    "quantity": 1,
+    "actions": {
+      "C8j3obc8TBcPWtk7": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Cornered",
+        "description": "When all Stress is marked, gain advantage on attack rolls.",
+        "img": "icons/magic/control/fear-fright-mask-orange.webp",
+        "cost": [],
+        "_id": "C8j3obc8TBcPWtk7",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 5
+    },
+    "baseThresholds": {
+      "major": 11,
+      "severe": 23
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsCornered",
+        "effectIds": [],
+        "actionIds": [
+          "C8j3obc8TBcPWtk7"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Cornered: when all Stress marked, gain advantage on attack rolls"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "NCgJTlQY9VqWHBJO",
+  "sort": 0,
+  "_key": "!items!NCgJTlQY9VqWHBJO"
+}

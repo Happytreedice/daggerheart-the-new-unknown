@@ -1,0 +1,38 @@
+{
+  "name": "Passage of Charon - Release",
+  "type": "domainCard",
+  "img": "icons/sundries/gaming/rune-card.webp",
+  "system": {
+    "description": "<p>Make a Power Roll against up to three targets within Close range. On a success, move them to visible safe spaces within Far range; each marks a Stress. Release: after use, flip it to Seal.</p>",
+    "domain": "pluto",
+    "type": "sigil",
+    "level": 3,
+    "recallCost": 1,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {},
+    "resource": null,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "TPFon3HZ2A0iffVB",
+  "sort": 0,
+  "_key": "!items!TPFon3HZ2A0iffVB"
+}

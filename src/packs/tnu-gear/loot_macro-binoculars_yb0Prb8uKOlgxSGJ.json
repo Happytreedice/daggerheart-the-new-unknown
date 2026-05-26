@@ -1,0 +1,33 @@
+{
+  "name": "Macro-Binoculars",
+  "type": "loot",
+  "img": "icons/commodities/tech/electronics-tech-sensor-blue.webp",
+  "system": {
+    "description": "<p>Digital long-range lenses with low-light and thermal imaging.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "gear",
+      "roll": 8,
+      "tier": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "yb0Prb8uKOlgxSGJ",
+  "sort": 0,
+  "_key": "!items!yb0Prb8uKOlgxSGJ"
+}

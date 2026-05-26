@@ -1,0 +1,38 @@
+{
+  "name": "Adaptable Tactics",
+  "type": "domainCard",
+  "img": "icons/sundries/gaming/playing-cards-grey.webp",
+  "system": {
+    "description": "<p>When you make a reaction roll, mark a Stress to add your Instinct or Knowledge. Once per rest when an ally in Very Close range would gain a condition, describe how your tactics help them avoid it.</p>",
+    "domain": "mercury",
+    "type": "skill",
+    "level": 3,
+    "recallCost": 0,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {},
+    "resource": null,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "P7BfzXzrhpgGzyGQ",
+  "sort": 0,
+  "_key": "!items!P7BfzXzrhpgGzyGQ"
+}

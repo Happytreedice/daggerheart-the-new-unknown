@@ -1,0 +1,40 @@
+{
+  "name": "Campaign Frame: X//666 HELLRAVE",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Campaign Frame: X//666 HELLRAVE",
+      "type": "text",
+      "_id": "XdFAyH0WdPLqFBFK",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>NARI-5 has one year left under a failing worldshield as CARMINE approaches death-bloom.</p><p>Rifts open across the neon city-planet and release demonic swarms. Player characters are wired outcasts hired to cull outbreaks, steal shield resources, and chase rumors of the Ark.</p><p>Tone: neon, maximalist, ferocious, sleek, desperate-but-defiant, techno. Themes: last pleasure, contracted violence, survival by theft.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!zqiIUShH4CABKPyy.XdFAyH0WdPLqFBFK"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "zqiIUShH4CABKPyy",
+  "sort": 0,
+  "_key": "!journal!zqiIUShH4CABKPyy"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Holo-Map",
+  "type": "loot",
+  "img": "icons/tools/navigation/map-marked-blue.webp",
+  "system": {
+    "description": "<p>A 3D topographic navigation map with waypoints and route tracking.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "gear",
+      "roll": 33,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "W39hY5IMuLILBZCG",
+  "sort": 0,
+  "_key": "!items!W39hY5IMuLILBZCG"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Homo Novus - Vigil",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Fast Response: Mark a Stress to gain advantage on a reaction roll.</p><p>Neural Plasticity: When you fail a roll that utilized one of your Experiences, mark a Stress to reroll.</p>",
+    "features": [],
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "k8KairawoEhFeAvI",
+  "sort": 0,
+  "_key": "!items!k8KairawoEhFeAvI"
+}

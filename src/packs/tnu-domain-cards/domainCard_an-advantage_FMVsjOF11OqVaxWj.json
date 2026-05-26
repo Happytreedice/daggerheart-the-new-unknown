@@ -1,0 +1,38 @@
+{
+  "name": "An Advantage",
+  "type": "domainCard",
+  "img": "icons/sundries/gaming/playing-cards-grey.webp",
+  "system": {
+    "description": "<p>When an ally within Close range attacks a target with advantage, you gain advantage on your next attack against that target.</p>",
+    "domain": "mercury",
+    "type": "skill",
+    "level": 1,
+    "recallCost": 1,
+    "inVault": false,
+    "vaultActive": false,
+    "loadoutIgnore": false,
+    "domainTouched": null,
+    "actions": {},
+    "resource": null,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "FMVsjOF11OqVaxWj",
+  "sort": 0,
+  "_key": "!items!FMVsjOF11OqVaxWj"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Visc",
+  "type": "ancestry",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "description": "<p>Bio-Armor: Gain a bonus to your damage thresholds equal to your Proficiency.</p><p>Hard to Kill: When you Avoid Death on a death move, reroll your Hope Die once.</p>",
+    "features": [],
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "iaVal5H6qCL1uEzB",
+  "sort": 0,
+  "_key": "!items!iaVal5H6qCL1uEzB"
+}

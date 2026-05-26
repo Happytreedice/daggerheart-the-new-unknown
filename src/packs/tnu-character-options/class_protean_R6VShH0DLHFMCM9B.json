@@ -1,0 +1,65 @@
+{
+  "name": "Protean",
+  "type": "class",
+  "img": "icons/equipment/back/cloak-collared-grey.webp",
+  "system": {
+    "description": "<p>A tactical survivor built around changing strategy as the scene changes.</p><p>Adaptive: At the start of each scene, choose Cunning, Stealth, or Survival. Cunning lets you mark Stress instead of spending Hope when you Utilize an Experience, doubling the Experience modifier. Stealth turns Hidden into Shrouded. Survival lets you mark 2 Stress when taking damage to mark 1 fewer Hit Point.</p><p>Resourceful: You start with a third Experience and gain one additional Stress slot.</p><p>Hope Feature - Endure: Spend 3 Hope to clear 2 Stress.</p><p>Class Items: A survival blade with alien-hide wrapping or a map of shifting terrain.</p>",
+    "domains": [
+      "mercury",
+      "saturn"
+    ],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 12,
+    "features": [],
+    "inventory": {
+      "take": [],
+      "choiceA": [],
+      "choiceB": []
+    },
+    "characterGuide": {
+      "suggestedTraits": {
+        "agility": 0,
+        "strength": 0,
+        "finesse": 0,
+        "instinct": 0,
+        "presence": 0,
+        "knowledge": 0
+      },
+      "suggestedPrimaryWeapon": null,
+      "suggestedSecondaryWeapon": null,
+      "suggestedArmor": null
+    },
+    "backgroundQuestions": [
+      "Who first taught you how to adapt, and how did you later surpass their lessons?",
+      "What hostile world or battlefield once tried to break you, and how did it leave its mark?",
+      "What rule of survival guides you above all else, and what would make you break it?"
+    ],
+    "connections": [
+      "You once followed my lead through hostile ground. What made you trust my path over your own?",
+      "I shared my last resource with you when survival was uncertain. What mark did that choice leave on you?",
+      "You know the weakness in how I survive. Why do you never use it against me?"
+    ],
+    "isMulticlass": false,
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "R6VShH0DLHFMCM9B",
+  "sort": 0,
+  "_key": "!items!R6VShH0DLHFMCM9B"
+}

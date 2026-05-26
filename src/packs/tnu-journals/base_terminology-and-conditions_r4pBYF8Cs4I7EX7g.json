@@ -1,0 +1,40 @@
+{
+  "name": "Terminology and Conditions",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Terminology and Conditions",
+      "type": "text",
+      "_id": "wMPTf0BsvYLG6BTJ",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>TNU uses Kinetic (kin) and Energy (ene) as damage types. In Foundryborn these are mapped to physical and magical damage where needed.</p><p>Scars are called Trauma. Each Trauma reduces maximum Hope by 1.</p><p>Dazzed: attack rolls take -2. Distracted: Difficulty takes -2. Hidden: rolls against you have disadvantage until you reveal yourself. Shrouded: Hidden, and you remain unseen while stationary. Restrained: you cannot move. Stunned: no reactions and no other action. Vulnerable: rolls targeting you have advantage. Weakened: disadvantage on attack rolls.</p><p>Spellcast Trait is called Power Trait in TNU.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!r4pBYF8Cs4I7EX7g.wMPTf0BsvYLG6BTJ"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "r4pBYF8Cs4I7EX7g",
+  "sort": 0,
+  "_key": "!journal!r4pBYF8Cs4I7EX7g"
+}

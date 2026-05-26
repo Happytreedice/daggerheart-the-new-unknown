@@ -1,0 +1,34 @@
+{
+  "name": "Advanced Plasma-Surge Cell",
+  "type": "consumable",
+  "img": "icons/commodities/tech/electronics-battery-energy-white-green.webp",
+  "system": {
+    "description": "<p>Attach to an energy weapon to add +2 to your next three damage rolls with that weapon.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "expendable",
+      "roll": 25,
+      "tier": 2,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "vr7TPmIaSmtoY3Sj",
+  "sort": 0,
+  "_key": "!items!vr7TPmIaSmtoY3Sj"
+}

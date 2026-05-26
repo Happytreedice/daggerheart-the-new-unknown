@@ -1,0 +1,34 @@
+{
+  "name": "Neuro-Toxin",
+  "type": "consumable",
+  "img": "icons/skills/toxins/poison-bottle-open-fire-purple.webp",
+  "system": {
+    "description": "<p>Coat a kinetic weapon or ammunition; add 1d6 to your next damage roll with that weapon.</p>",
+    "quantity": 1,
+    "consumeOnUse": true,
+    "actions": {},
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "category": "expendable",
+      "roll": 4,
+      "tier": 1,
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "tlQEbC1yhZCnCgMS",
+  "sort": 0,
+  "_key": "!items!tlQEbC1yhZCnCgMS"
+}

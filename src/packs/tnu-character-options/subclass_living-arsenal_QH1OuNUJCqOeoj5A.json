@@ -1,0 +1,33 @@
+{
+  "name": "Living Arsenal",
+  "type": "subclass",
+  "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+  "system": {
+    "description": "<p>An Architect subclass that turns the body into a modular weapons platform.</p><p>Foundation - Modular Arsenal: Take two Tier 1 modules, then two additional modules at your tier or lower whenever you reach a new tier. Your Energy Core stores 1 Charge, gains a Charge after a long rest, and spends Charges to activate modules until the scene ends or another module is activated.</p><p>Specialization - Enhanced Core: Your Energy Core stores up to 2 Charges. After a rest, choose one Tech card in your loadout; it can use Energy Core Charges.</p><p>Mastery - Masterwork Core: Your Energy Core stores up to 3 Charges. After a rest, choose two Tech cards in your loadout; they can use Energy Core Charges. You can activate a second module without ending the first.</p><p>Tier 1 modules: Targeting Node, Hydraulic Frame, Integrated Weapon, Shock Fist, Atmos-Sealed.</p><p>Tier 2 modules: Mag-Grip Boots, Spectral Optics, Ballistic Amplifier, Overstride, Chameleon Mesh.</p>",
+    "spellcastingTrait": "knowledge",
+    "features": [],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "Compendium.daggerheart-space.tnu-character-options.Item.llosN4M2dCFjABRF",
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game"
+    }
+  },
+  "_id": "QH1OuNUJCqOeoj5A",
+  "sort": 0,
+  "_key": "!items!QH1OuNUJCqOeoj5A"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "LAMIA Frame",
+  "type": "armor",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "attribution": {
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Biocharged: mark Stress for +1 Proficiency on a primary weapon attack</p>",
+    "quantity": 1,
+    "actions": {
+      "nzvNDoXmOcMfT1c6": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Biocharged",
+        "description": "Mark Stress for +1 Proficiency on a primary weapon attack.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "nzvNDoXmOcMfT1c6",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "baseThresholds": {
+      "major": 8,
+      "severe": 18
+    },
+    "armorFeatures": [
+      {
+        "value": "dhsBiocharged",
+        "effectIds": [],
+        "actionIds": [
+          "nzvNDoXmOcMfT1c6"
+        ]
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "The New Unknown",
+      "playtest": "v2.0_Mind",
+      "source": "The New Unknown Playtest Volume 2.0 - Mind",
+      "sourceUrl": "https://www.kickstarter.com/projects/1981524065/the-new-unknown-a-sci-fi-role-playing-game",
+      "featureText": "Biocharged: mark Stress for +1 Proficiency on a primary weapon attack"
+    },
+    "daggerheart": {
+      "featureType": "armor"
+    }
+  },
+  "_id": "mvQPE92Bskb9jKwl",
+  "sort": 0,
+  "_key": "!items!mvQPE92Bskb9jKwl"
+}
