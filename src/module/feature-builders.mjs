@@ -14,7 +14,7 @@ export const icons = {
 
 export const stress = value => [{ key: 'stress', value }];
 export const hope = value => [{ key: 'hope', value }];
-export const armor = value => [{ key: 'armor', value }];
+export const armor = value => [{ key: 'resource', itemId: 'armorSlot', value }];
 
 export const feature = (label, description, config = {}) => ({
   label,

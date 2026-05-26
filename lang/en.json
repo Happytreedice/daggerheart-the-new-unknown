@@ -1657,6 +1657,22 @@
       "Sigil": "Sigil",
       "Skill": "Skill",
       "Tech": "Tech"
+    },
+    "Hook": {
+      "ImpactZone": {
+        "Title": "Impact Zone",
+        "Body": "Targets in the impact zone make a Reaction Roll ({dc}). Success halves the damage.",
+        "ReactionTitle": "Reaction Roll: {name} vs {dc}",
+        "RollReaction": "Reaction Roll",
+        "DealDamage": "Deal Damage",
+        "Pending": "pending",
+        "Success": "success {total}",
+        "Failure": "failure {total}",
+        "Applied": "Damage applied.",
+        "MissingTarget": "Target is no longer available.",
+        "GmOnly": "Only the GM can apply this damage automatically.",
+        "NoDamage": "No damage data was available for this feature."
+      }
     }
   }
 }

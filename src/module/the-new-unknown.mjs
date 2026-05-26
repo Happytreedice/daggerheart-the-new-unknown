@@ -1,7 +1,19 @@
+import { registerRuntimeLocalization } from './localization.mjs';
 import { tnuArmorFeatures, tnuWeaponFeatures } from './tnu-features.mjs';
+import { registerWeaponFeatureHooks } from './weapon-feature-hooks.mjs';
 
+const MODULE_ID = 'daggerheart-the-new-unknown';
 const MODULE_NAME = 'The New Unknown for Daggerheart';
 const I18N_PREFIX = 'DHTNU';
+const PACK_NAMES = [
+  'tnu-character-options',
+  'tnu-domain-cards',
+  'tnu-weapons',
+  'tnu-armors',
+  'tnu-gear',
+  'tnu-consumables',
+  'tnu-journals'
+];
 
 const tnuDomains = {
   mercury: {
@@ -96,6 +108,14 @@ Hooks.once('init', () => {
   console.info(`${MODULE_NAME} | Initialized successfully.`);
 });
 
+registerRuntimeLocalization({
+  moduleId: MODULE_ID,
+  i18nPrefix: I18N_PREFIX,
+  moduleName: MODULE_NAME,
+  packNames: PACK_NAMES
+});
+registerWeaponFeatureHooks({ moduleId: MODULE_ID, i18nPrefix: I18N_PREFIX });
+
 function localizedFeatureRegistry(registry, type) {
   const localized = foundry.utils.deepClone(registry);
 
@@ -127,6 +147,5 @@ function localizedFeatureRegistry(registry, type) {
 }
 
 function localizeField(object, field, key) {
-  if (!game.i18n.has(key)) return;
   object[field] = key;
 }

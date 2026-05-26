@@ -19,9 +19,9 @@
         "img": "icons/skills/melee/shield-block-bash-blue.webp",
         "cost": [
           {
-            "key": "armor",
+            "key": "resource",
             "value": 1,
-            "itemId": null,
+            "itemId": "armorSlot",
             "scalable": false,
             "step": null,
             "consumeOnSuccess": false
